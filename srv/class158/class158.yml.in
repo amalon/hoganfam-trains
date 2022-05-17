@@ -1,0 +1,19 @@
+class158:
+  name: class158
+  savedName: class158
+  allowManualMovement: true
+  speedLimit: 1.0
+  collision:
+    players: CANCEL
+    misc: PUSH
+    train: LINK
+    block: DEFAULT
+  slowDown: false
+  keepChunksLoaded: true
+  carts:
+    0:
+#include "car_1.yml"
+      flipped: false
+    1:
+#include "car_1.yml"
+      flipped: true
