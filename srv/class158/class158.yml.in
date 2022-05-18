@@ -12,8 +12,20 @@ class158:
   keepChunksLoaded: true
   carts:
     0:
-#include "car_1.yml"
+#include "bogie.yml"
       flipped: false
     1:
 #include "car_1.yml"
+      flipped: false
+    2:
+#include "bogie.yml"
+      flipped: true
+    3:
+#include "bogie.yml"
+      flipped: false
+    5:
+#include "car_1.yml"
+      flipped: true
+    6:
+#include "bogie.yml"
       flipped: true

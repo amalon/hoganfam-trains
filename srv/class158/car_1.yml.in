@@ -48,7 +48,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -115,7 +115,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -143,7 +143,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -171,7 +171,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -199,7 +199,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -263,7 +263,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -291,7 +291,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -319,7 +319,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -347,7 +347,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -411,7 +411,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -439,7 +439,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -467,7 +467,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -495,7 +495,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -559,7 +559,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -587,7 +587,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -615,7 +615,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -643,7 +643,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -707,7 +707,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -735,7 +735,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -763,7 +763,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -791,7 +791,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -855,7 +855,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -883,7 +883,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -911,7 +911,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -939,7 +939,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -1003,7 +1003,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -1031,7 +1031,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -1059,7 +1059,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -1087,7 +1087,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -1098,6 +1098,8 @@
                   rotX: 0.0
                   rotY: 0.0
                   rotZ: 0.0
+            editor:
+              expanded: false
           8:
             type: ITEM
             item:
@@ -1151,7 +1153,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -1179,7 +1181,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -1207,7 +1209,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -1235,7 +1237,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -1246,6 +1248,8 @@
                   rotX: 0.0
                   rotY: 0.0
                   rotZ: 0.0
+            editor:
+              expanded: false
           9:
             type: ITEM
             item:
@@ -1299,7 +1303,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -1327,7 +1331,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -1355,7 +1359,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -1383,7 +1387,7 @@
                 displayMode: DEFAULT
                 lockRotation: true
                 firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: false
+                firstPersonViewLockMode: OFF
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -1394,6 +1398,8 @@
                   rotX: 0.0
                   rotY: 0.0
                   rotZ: 0.0
+            editor:
+              expanded: false
           10:
             type: ITEM
             item:
@@ -1429,48 +1435,10 @@
               rotZ: 0.0
             entityType: MINECART
             sitting: false
-          11:
-            type: ITEM
-            item:
-              ==: org.bukkit.inventory.ItemStack
-              v: 2975
-              type: GOLDEN_PICKAXE
-              meta:
-                ==: ItemMeta
-                meta-type: UNSPECIFIC
-                Unbreakable: true
-                Damage: 5
-            position:
-              transform: HEAD
-              posX: 0.0
-              posY: -1.8800000000000001
-              posZ: -7.0
-              rotX: 0.0
-              rotY: 90.00000000000001
-              rotZ: 0.0
-          12:
-            type: ITEM
-            item:
-              ==: org.bukkit.inventory.ItemStack
-              v: 2975
-              type: GOLDEN_PICKAXE
-              meta:
-                ==: ItemMeta
-                meta-type: UNSPECIFIC
-                Unbreakable: true
-                Damage: 5
-            position:
-              transform: HEAD
-              posX: 0.0
-              posY: -1.8800000000000001
-              posZ: 7.0
-              rotX: 0.0
-              rotY: -90.0
-              rotZ: 0.0
         physical:
-          cartLength: 21.099999999999998
+          cartLength: 14.15
           wheelCenter: 0.0
-          wheelDistance: 14.06
+          wheelDistance: 14.15
         position:
           transform: HEAD
           posX: 0.0
@@ -1489,7 +1457,7 @@
             meta-type: UNSPECIFIC
             Unbreakable: true
             Damage: 9
+        editor:
+          selectedIndex: 6
+          scrollOffset: 31
       entityType: MINECART
-      flipped: false
-      destination: HoganXchange
-      lastPathNode: Other
