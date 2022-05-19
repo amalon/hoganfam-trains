@@ -23,9 +23,9 @@ class158:
     3:
 #include "bogie.yml"
       flipped: false
-    5:
+    4:
 #include "car_1.yml"
       flipped: true
-    6:
+    5:
 #include "bogie.yml"
       flipped: true
