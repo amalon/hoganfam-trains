@@ -41,7 +41,7 @@
                   transform: head
                   posX: 0.86
                   posY: 0.0
-                  posZ: 0.61
+                  posZ: 0.53
                   rotX: 0.0
                   rotY: 0.0
                   rotZ: 0.0
@@ -53,7 +53,7 @@
                   enabled: false
                 ejectPosition:
                   lockRotation: false
-                  posX: 2.2199999999999998
+                  posX: 0.0
                   posY: 0.0
                   posZ: 0.0
                   rotX: 0.0
