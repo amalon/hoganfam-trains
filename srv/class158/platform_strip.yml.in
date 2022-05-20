@@ -1,0 +1,73 @@
+                type: EMPTY
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 2975
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: POS_Z
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                entityType: MINECART
+                sitting: false
+                attachments:
+                  0:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 2975
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: OFF
+                  1:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 2975
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 0.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: OFF
+                  2:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 2975
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 1.0
+                      posY: -1.58
+                      posZ: 0.0
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: OFF
+                editor:
+                  expanded: false
+#undef POS_Z
