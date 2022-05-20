@@ -1,0 +1,149 @@
+            type: ITEM
+            position:
+              transform: HEAD
+              posX: 0.0
+              posY: 0.0
+              posZ: POS_Z
+              rotX: 0.0
+              rotY: 180.00000000000003
+              rotZ: 0.0
+              anchor: default
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: GOLDEN_PICKAXE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                Unbreakable: true
+                Damage: 8
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            firstPersonViewLockMode: false
+            displayItem:
+              enabled: false
+            ejectPosition:
+              lockRotation: false
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            entityType: MINECART
+            sitting: false
+            attachments:
+              0:
+                type: SEAT
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 2975
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: 0.64
+                  posY: 0.0
+                  posZ: -0.67
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: true
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: OFF
+                displayItem:
+                  enabled: false
+                ejectPosition:
+                  lockRotation: false
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+              1:
+                type: SEAT
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 2975
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: -0.64
+                  posY: 0.0
+                  posZ: -0.67
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: true
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: OFF
+                displayItem:
+                  enabled: false
+                ejectPosition:
+                  lockRotation: false
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+              2:
+                type: SEAT
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 2975
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: -0.64
+                  posY: 0.0
+                  posZ: 0.67
+                  rotX: 0.0
+                  rotY: 180.00000000000003
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: true
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: OFF
+                displayItem:
+                  enabled: false
+                ejectPosition:
+                  lockRotation: false
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+              3:
+                type: SEAT
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 2975
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: 0.64
+                  posY: 0.0
+                  posZ: 0.67
+                  rotX: 0.0
+                  rotY: 180.00000000000003
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: true
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: OFF
+                displayItem:
+                  enabled: false
+                ejectPosition:
+                  lockRotation: false
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+#undef POS_Z
