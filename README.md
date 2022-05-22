@@ -61,7 +61,6 @@ which players can walk while a train is stationary):
 
 Various other files in `res/` are from Minecraft:
  - `res/assets/minecraft/textures/items/gold_pickaxe.png`
- - `res/assets/minecraft/models/item/golden_pickaxe.json`
 
 All original files in `res/**/amalon/` are released under the [Creative Commons
 Attribution-Share Alike 3.0 Unported] unless otherwise stated.
