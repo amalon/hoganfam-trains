@@ -29,7 +29,7 @@
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
                 Unbreakable: true
-                Damage: 5
+                Damage: 10
         physical:
           cartLength: 2.95
           wheelCenter: -2.0
