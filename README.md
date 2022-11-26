@@ -136,6 +136,44 @@ Where `<trainname>` is replaced with one of the provided train IDs (see Trains
 above). This particular example launches the new train at 0.2 blocks/second to
 the left.
 
+
+Stations
+--------
+
+You can make a train stop at a station using a [station
+sign](https://wiki.traincarts.net/p/TrainCarts/Signs/Station) placed under
+railway track with the following text:
+```
+[+train]
+station .8m/ss
+18
+continue
+```
+
+This particular example stops trains for 18 seconds, and launches trains in the
+direction they were going (replace `continue` with `left` or `right` to make it
+always launch in a particular direction), with an acceleration of 0.8 metres /
+second<sup>2</sup>. See train information above for recommended values.
+
+To activate the door animations, use an [animate
+sign](https://wiki.traincarts.net/p/TrainCarts/Signs/Animate) placed under
+railway track at each end of the stopped train so that it activates soon before
+stopping, with the following text:
+```
+[+train:left]
+animate reset
+doors
+1.0 2.0
+```
+
+This particular example activates for trains coming from the left (so would be
+appropriate for the right end of the platform), and activates the door open and
+close animation at 1.0x speed after a delay of 2.0 seconds.
+
+You can tune the 2 second delay so that the doors open soon after stopping. See
+train information above for recommended values.
+
+
 [TrainCarts Spigot plugin]: https://www.spigotmc.org/resources/traincarts.39592/
 [TC Coasters Spigot plugin]: https://www.spigotmc.org/resources/tc-coasters.59583/
 [GNU General Public License, version 2]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
