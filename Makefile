@@ -1,5 +1,7 @@
 RESOURCE_PACK := hoganfam_trains.zip
 
+YML_FILES += srv/class158/door_left_anim.yml
+YML_FILES += srv/class158/door_right_anim.yml
 YML_FILES += srv/class158/car_1.yml
 YML_FILES += srv/class158/bogie.yml
 YML_FILES += srv/class158/class158.yml
