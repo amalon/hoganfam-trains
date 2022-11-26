@@ -41,7 +41,7 @@ Detailed features for each train:
 
 Train ID	| Front | External Skin | Cab | Seating | Bogies | External Details 
 ----------------|-------|---------------|-----|---------|--------|------------------
-[class158]	| 80%   | 100%          | 70% | 70%     | 100%   | 30%
+[class158]	| 80%   | 100%          | 70% | 70%     | 100%   | 50%
 
 
 License 
