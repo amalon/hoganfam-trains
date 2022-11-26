@@ -32,6 +32,83 @@
                 Damage: 9
             attachments:
               0:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 11
+              1:
+                type: ITEM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 12
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+              2:
+                type: ITEM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 11
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.55
+                  rotX: 0.0
+                  rotY: 180.0
+                  rotZ: 0.0
+              3:
+                type: ITEM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 12
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.55
+                  rotX: 0.0
+                  rotY: 180.0
+                  rotZ: 0.0
+                  anchor: default
+              4:
                 type: SEAT
                 item:
                   ==: org.bukkit.inventory.ItemStack
@@ -60,7 +137,7 @@
                   rotY: 0.0
                   rotZ: 0.0
                   anchor: default
-              4:
+              5:
                 type: PLATFORM
                 item:
                   ==: org.bukkit.inventory.ItemStack
@@ -78,7 +155,7 @@
                 lockRotation: false
                 firstPersonViewMode: DYNAMIC
                 firstPersonViewLockMode: OFF
-              5:
+              6:
                 type: PLATFORM
                 item:
                   ==: org.bukkit.inventory.ItemStack
@@ -341,6 +418,83 @@
             sitting: false
             attachments:
               0:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 11
+              1:
+                type: ITEM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 12
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+              2:
+                type: ITEM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 11
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.55
+                  rotX: 0.0
+                  rotY: 180.0
+                  rotZ: 0.0
+              3:
+                type: ITEM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 12
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.55
+                  rotX: 0.0
+                  rotY: 180.0
+                  rotZ: 0.0
+                  anchor: default
+              4:
                 type: PLATFORM
                 item:
                   ==: org.bukkit.inventory.ItemStack
@@ -358,7 +512,7 @@
                 lockRotation: false
                 firstPersonViewMode: DYNAMIC
                 firstPersonViewLockMode: OFF
-              1:
+              5:
                 type: PLATFORM
                 item:
                   ==: org.bukkit.inventory.ItemStack
