@@ -32,7 +32,7 @@
 		{ "_cmd_": "give @p minecraft:golden_pickaxe 1 25 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.7575757575757576},  "model": "item/golden_pickaxe"},
 		{ "_cmd_": "give @p minecraft:golden_pickaxe 1 26 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.7878787878787878},  "model": "item/golden_pickaxe"},
 		{ "_cmd_": "give @p minecraft:golden_pickaxe 1 27 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.8181818181818182},  "model": "item/golden_pickaxe"},
-		{ "_cmd_": "give @p minecraft:golden_pickaxe 1 28 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.8484848484848485},  "model": "item/golden_pickaxe"},
+		{ "_cmd_": "give @p minecraft:golden_pickaxe 1 28 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.8484848484848485},  "model": "item/amalon/traincarts_metro_bogie"},
 		{ "_cmd_": "give @p minecraft:golden_pickaxe 1 29 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.8787878787878788},  "model": "item/amalon/traincarts_metro_body_front"},
 		{ "_cmd_": "give @p minecraft:golden_pickaxe 1 30 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.9090909090909092},  "model": "item/amalon/traincarts_metro_body_2"},
 		{ "_cmd_": "give @p minecraft:golden_pickaxe 1 31 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.9393939393939394},  "model": "item/amalon/traincarts_metro_body_3"},

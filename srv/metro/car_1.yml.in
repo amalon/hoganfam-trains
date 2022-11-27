@@ -193,9 +193,9 @@
             entityType: MINECART
             sitting: false
         physical:
-          cartLength: 15.0
-          wheelCenter: 0.0
-          wheelDistance: 11.8
+          cartLength: 10.0
+          wheelCenter: 1.0
+          wheelDistance: 10.0
         position: {}
         sitting: false
       entityType: MINECART
