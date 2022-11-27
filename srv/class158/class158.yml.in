@@ -2,6 +2,12 @@ class158:
   name: class158
   savedName: class158
   allowManualMovement: true
+  wait:
+    distance: 200.0
+    delay: 20.0
+    acceleration: 0.002
+    deceleration: 0.005
+    predict: true
   speedLimit: 1.0
   collision:
     players: CANCEL

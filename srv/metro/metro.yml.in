@@ -1,5 +1,20 @@
 metro:
+  name: metro
   savedName: metro
+  wait:
+    distance: 100.0
+    delay: 10.0
+    acceleration: 0.0035
+    deceleration: 0.005
+    predict: true
+  speedLimit: 1.0
+  collision:
+    players: CANCEL
+    misc: PUSH
+    train: LINK
+    block: DEFAULT
+  slowDown: false
+  keepChunksLoaded: true
   carts:
     0:
 #include "bogie.yml"
