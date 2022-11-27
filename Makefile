@@ -5,6 +5,8 @@ YML_FILES += srv/class158/door_right_anim.yml
 YML_FILES += srv/class158/car_1.yml
 YML_FILES += srv/class158/bogie.yml
 YML_FILES += srv/class158/class158.yml
+YML_FILES += srv/metro/car_1.yml
+YML_FILES += srv/metro/metro.yml
 YML_FILES += srv/hoganfam_trains.yml
 
 YML_IN_FILES := $(YML_FILES:.yml=.yml.in)

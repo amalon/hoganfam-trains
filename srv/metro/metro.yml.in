@@ -1,0 +1,9 @@
+metro:
+  savedName: metro
+  carts:
+    0:
+#include "car_1.yml"
+      flipped: false
+    1:
+#include "car_1.yml"
+      flipped: true
