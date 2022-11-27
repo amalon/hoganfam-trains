@@ -106,6 +106,43 @@
                 Damage: 30
             entityType: MINECART
             sitting: false
+            attachments:
+              0:
+                type: PLATFORM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 2975
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: -2.0
+                  posY: -1.58
+                  posZ: -0.18
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: false
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: OFF
+              1:
+                type: PLATFORM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 2975
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: 2.0
+                  posY: -1.58
+                  posZ: -0.18
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: false
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: OFF
           2:
             type: ITEM
             position:
@@ -236,6 +273,43 @@
                 Damage: 30
             entityType: MINECART
             sitting: false
+            attachments:
+              0:
+                type: PLATFORM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 2975
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: -2.0
+                  posY: -1.58
+                  posZ: -0.18
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: false
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: OFF
+              1:
+                type: PLATFORM
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 2975
+                  type: OAK_PLANKS
+                position:
+                  transform: head
+                  posX: 2.0
+                  posY: -1.58
+                  posZ: -0.18
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                displayMode: DEFAULT
+                lockRotation: false
+                firstPersonViewMode: DYNAMIC
+                firstPersonViewLockMode: OFF
           4:
             type: ITEM
             position:
@@ -329,6 +403,70 @@
                   rotX: 0.0
                   rotY: 0.0
                   rotZ: 0.0
+          5:
+            type: EMPTY
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2975
+              type: OAK_PLANKS
+            position:
+              transform: head
+              posX: 0.0
+              posY: 2.33
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            entityType: MINECART
+            sitting: false
+            attachments:
+              0:
+#define POS_Z 7.32
+#include "platform_strip.yml.in"
+              1:
+#define POS_Z 6.32
+#include "platform_strip.yml.in"
+              2:
+#define POS_Z 5.32
+#include "platform_strip.yml.in"
+              3:
+#define POS_Z 4.32
+#include "platform_strip.yml.in"
+              4:
+#define POS_Z 3.32
+#include "platform_strip.yml.in"
+              5:
+#define POS_Z 2.32
+#include "platform_strip.yml.in"
+              6:
+#define POS_Z 1.32
+#include "platform_strip.yml.in"
+              7:
+#define POS_Z 0.32
+#include "platform_strip.yml.in"
+              8:
+#define POS_Z -0.68
+#include "platform_strip.yml.in"
+              9:
+#define POS_Z -1.68
+#include "platform_strip.yml.in"
+              10:
+#define POS_Z -2.68
+#include "platform_strip.yml.in"
+              11:
+#define POS_Z -3.68
+#include "platform_strip.yml.in"
+              12:
+#define POS_Z -4.68
+#include "platform_strip.yml.in"
+              13:
+#define POS_Z -5.68
+#include "platform_strip.yml.in"
+              14:
+#define POS_Z -6.68
+#include "platform_strip.yml.in"
+            editor:
+              expanded: false
         physical:
           cartLength: 10.0
           wheelCenter: 1.0
