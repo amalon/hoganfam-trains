@@ -162,6 +162,8 @@
                     meta-type: UNSPECIFIC
                     Unbreakable: true
                     Damage: 26
+                animations:
+                  DOOR_ANIM_1:
 #include "door_left_anim.yml"
               3:
                 type: ITEM
@@ -182,6 +184,8 @@
                     meta-type: UNSPECIFIC
                     Unbreakable: true
                     Damage: 27
+                animations:
+                  DOOR_ANIM_1:
 #include "door_right_anim.yml"
               4:
                 type: ITEM
@@ -202,6 +206,8 @@
                     meta-type: UNSPECIFIC
                     Unbreakable: true
                     Damage: 26
+                animations:
+                  DOOR_ANIM_2:
 #include "door_left_anim.yml"
               5:
                 type: ITEM
@@ -222,6 +228,8 @@
                     meta-type: UNSPECIFIC
                     Unbreakable: true
                     Damage: 27
+                animations:
+                  DOOR_ANIM_2:
 #include "door_right_anim.yml"
           2:
             type: ITEM
@@ -409,6 +417,8 @@
                     meta-type: UNSPECIFIC
                     Unbreakable: true
                     Damage: 26
+                animations:
+                  DOOR_ANIM_2:
 #include "door_left_anim.yml"
               3:
                 type: ITEM
@@ -429,6 +439,8 @@
                     meta-type: UNSPECIFIC
                     Unbreakable: true
                     Damage: 27
+                animations:
+                  DOOR_ANIM_2:
 #include "door_right_anim.yml"
               4:
                 type: ITEM
@@ -449,6 +461,8 @@
                     meta-type: UNSPECIFIC
                     Unbreakable: true
                     Damage: 26
+                animations:
+                  DOOR_ANIM_1:
 #include "door_left_anim.yml"
               5:
                 type: ITEM
@@ -469,6 +483,8 @@
                     meta-type: UNSPECIFIC
                     Unbreakable: true
                     Damage: 27
+                animations:
+                  DOOR_ANIM_1:
 #include "door_right_anim.yml"
           4:
             type: ITEM
@@ -634,3 +650,5 @@
         position: {}
         sitting: false
       entityType: MINECART
+#undef DOOR_ANIM_1
+#undef DOOR_ANIM_2
