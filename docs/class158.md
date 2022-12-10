@@ -17,7 +17,7 @@ To-do list
 Stations
 --------
 
-The door open and close animation takes 18 seconds (4 seconds to open, 10
+The door open and close animations take 18 seconds (4 seconds to open, 10
 seconds open, 4 seconds to close), so a station stop should be about that time.
 
 This train can accelerate at 0.8 m/s<sup>2</sup> according to [Wikipedia].
@@ -34,12 +34,21 @@ continue
 
 [Animate signs](https://wiki.traincarts.net/p/TrainCarts/Signs/Animate)
 placed under the front wheels of the train when stopped at a station activate
-about 2 seconds prior to the train stopping, so the recommended sign text would
-look something like this:
+about 2 seconds prior to the train stopping, so the recommended sign text
+placed at the platform side of the rail would look something like this at the
+right end of a platform:
 ```
 [+train:left]
 animate reset
-doors
+doors_r
+1.0 2.0
+```
+
+or this at the left end of a platform:
+```
+[+train:right]
+animate reset
+doors_l
 1.0 2.0
 ```
 

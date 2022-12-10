@@ -162,13 +162,14 @@ stopping, with the following text:
 ```
 [+train:left]
 animate reset
-doors
+doors_r
 1.0 2.0
 ```
 
-This particular example activates for trains coming from the left (so would be
-appropriate for the right end of the platform), and activates the door open and
-close animation at 1.0x speed after a delay of 2.0 seconds.
+This particular example activates for trains coming from the left of the sign
+(so would be appropriate for the right end of the platform), and activates the
+right side door open and close animation at 1.0x speed after a delay of 2.0
+seconds.
 
 You can tune the 2 second delay so that the doors open soon after stopping. See
 train information above for recommended values.
