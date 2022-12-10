@@ -143,6 +143,86 @@
                 lockRotation: false
                 firstPersonViewMode: DYNAMIC
                 firstPersonViewLockMode: OFF
+              2:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 26
+#include "door_left_anim.yml"
+              3:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 27
+#include "door_right_anim.yml"
+              4:
+                type: ITEM
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.63
+                  rotX: 0.0
+                  rotY: 180
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 26
+#include "door_left_anim.yml"
+              5:
+                type: ITEM
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.63
+                  rotX: 0.0
+                  rotY: 180
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 27
+#include "door_right_anim.yml"
           2:
             type: ITEM
             position:
@@ -310,6 +390,86 @@
                 lockRotation: false
                 firstPersonViewMode: DYNAMIC
                 firstPersonViewLockMode: OFF
+              2:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 26
+#include "door_left_anim.yml"
+              3:
+                type: ITEM
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 27
+#include "door_right_anim.yml"
+              4:
+                type: ITEM
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.63
+                  rotX: 0.0
+                  rotY: 180
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 26
+#include "door_left_anim.yml"
+              5:
+                type: ITEM
+                position:
+                  transform: HEAD
+                  posX: 0.0
+                  posY: 0.0
+                  posZ: -0.63
+                  rotX: 0.0
+                  rotY: 180
+                  rotZ: 0.0
+                item:
+                  ==: org.bukkit.inventory.ItemStack
+                  v: 3105
+                  type: GOLDEN_PICKAXE
+                  meta:
+                    ==: ItemMeta
+                    meta-type: UNSPECIFIC
+                    Unbreakable: true
+                    Damage: 27
+#include "door_right_anim.yml"
           4:
             type: ITEM
             position:
