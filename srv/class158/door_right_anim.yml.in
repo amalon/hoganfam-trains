@@ -1,5 +1,3 @@
-                animations:
-                  doors:
                     nodes:
                       - t=1.0 scene=o
                       - t=2.5 x=0.2 z=-0.03

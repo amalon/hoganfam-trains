@@ -21,7 +21,9 @@ class158:
 #include "bogie.yml"
       flipped: false
     1:
-#include "car_1.yml"
+#define DOOR_ANIM_1 doors_l
+#define DOOR_ANIM_2 doors_r
+#include "car_1.yml.in"
       flipped: false
     2:
 #include "bogie.yml"
@@ -30,7 +32,9 @@ class158:
 #include "bogie.yml"
       flipped: false
     4:
-#include "car_1.yml"
+#define DOOR_ANIM_1 doors_r
+#define DOOR_ANIM_2 doors_l
+#include "car_1.yml.in"
       flipped: true
     5:
 #include "bogie.yml"

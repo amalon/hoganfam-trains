@@ -50,6 +50,8 @@
                     meta-type: UNSPECIFIC
                     Unbreakable: true
                     Damage: 11
+                animations:
+                  DOOR_ANIM_1:
 #include "door_left_anim.yml"
               1:
                 type: ITEM
@@ -70,6 +72,8 @@
                   rotX: 0.0
                   rotY: 0.0
                   rotZ: 0.0
+                animations:
+                  DOOR_ANIM_1:
 #include "door_right_anim.yml"
               2:
                 type: ITEM
@@ -90,6 +94,8 @@
                   rotX: 0.0
                   rotY: 180.0
                   rotZ: 0.0
+                animations:
+                  DOOR_ANIM_2:
 #include "door_left_anim.yml"
               3:
                 type: ITEM
@@ -111,6 +117,8 @@
                   rotY: 180.0
                   rotZ: 0.0
                   anchor: default
+                animations:
+                  DOOR_ANIM_2:
 #include "door_right_anim.yml"
               4:
                 type: SEAT
@@ -440,6 +448,8 @@
                     meta-type: UNSPECIFIC
                     Unbreakable: true
                     Damage: 11
+                animations:
+                  DOOR_ANIM_2:
 #include "door_left_anim.yml"
               1:
                 type: ITEM
@@ -460,6 +470,8 @@
                   rotX: 0.0
                   rotY: 0.0
                   rotZ: 0.0
+                animations:
+                  DOOR_ANIM_2:
 #include "door_right_anim.yml"
               2:
                 type: ITEM
@@ -480,6 +492,8 @@
                   rotX: 0.0
                   rotY: 180.0
                   rotZ: 0.0
+                animations:
+                  DOOR_ANIM_1:
 #include "door_left_anim.yml"
               3:
                 type: ITEM
@@ -501,6 +515,8 @@
                   rotY: 180.0
                   rotZ: 0.0
                   anchor: default
+                animations:
+                  DOOR_ANIM_1:
 #include "door_right_anim.yml"
               4:
                 type: PLATFORM
@@ -651,3 +667,5 @@
           selectedIndex: 6
           scrollOffset: 31
       entityType: MINECART
+#undef DOOR_ANIM_1
+#undef DOOR_ANIM_2
