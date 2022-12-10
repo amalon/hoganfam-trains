@@ -63,7 +63,7 @@
                   rotY: 0.0
                   rotZ: 0.0
                 displayMode: DEFAULT
-                lockRotation: false
+                lockRotation: true
                 firstPersonViewMode: DYNAMIC
                 firstPersonViewLockMode: OFF
                 displayItem:
@@ -275,7 +275,7 @@
                   rotY: 90.00000000000001
                   rotZ: 0.0
                 displayMode: DEFAULT
-                lockRotation: false
+                lockRotation: true
                 firstPersonViewMode: DYNAMIC
                 firstPersonViewLockMode: OFF
                 displayItem:
@@ -303,7 +303,7 @@
                   rotY: -90.0
                   rotZ: 0.0
                 displayMode: DEFAULT
-                lockRotation: false
+                lockRotation: true
                 firstPersonViewMode: DYNAMIC
                 firstPersonViewLockMode: OFF
                 displayItem:
@@ -522,7 +522,7 @@
                   rotY: 90.00000000000001
                   rotZ: 0.0
                 displayMode: DEFAULT
-                lockRotation: false
+                lockRotation: true
                 firstPersonViewMode: DYNAMIC
                 firstPersonViewLockMode: OFF
                 displayItem:
@@ -550,7 +550,7 @@
                   rotY: -90.0
                   rotZ: 0.0
                 displayMode: DEFAULT
-                lockRotation: false
+                lockRotation: true
                 firstPersonViewMode: DYNAMIC
                 firstPersonViewLockMode: OFF
                 displayItem:
