@@ -63,7 +63,7 @@ which players can walk while a train is stationary):
    transparency since Minecraft 1.15.
 
 Various other files in `res/` are from Minecraft:
- - `res/assets/minecraft/textures/items/gold_pickaxe.png`
+ - `res/assets/minecraft/textures/item/gold_pickaxe.png`
 
 All original files in `res/**/amalon/` are released under the [Creative Commons
 Attribution-Share Alike 3.0 Unported] unless otherwise stated.

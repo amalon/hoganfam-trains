@@ -1,7 +1,7 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "items/gold_pickaxe"
+		"layer0": "item/gold_pickaxe"
 	},
 	"overrides": [
 		{ "predicate": {"damaged": 0, "damage": 0}, "model": "item/golden_pickaxe"},

@@ -2,10 +2,10 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"1": "items/amalon/traincarts_c158_front",
-		"2": "items/amalon/traincarts_c158_base",
-		"3": "items/amalon/traincarts_c158_skin",
-		"particle": "items/amalon/traincarts_c158_base"
+		"1": "item/amalon/traincarts_c158_front",
+		"2": "item/amalon/traincarts_c158_base",
+		"3": "item/amalon/traincarts_c158_skin",
+		"particle": "item/amalon/traincarts_c158_base"
 	},
 	"elements": [
 		{
