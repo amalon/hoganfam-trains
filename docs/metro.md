@@ -1,6 +1,8 @@
 Metro (Inspired by DLR B07)
 ===========================
 
+![Screenshot](./metro.jpg)
+
 To-do list
 ----------
 

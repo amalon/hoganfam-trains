@@ -34,7 +34,7 @@ The following trains are provided:
 Train ID    | Name                                      | Status        | Screenshot
 ------------|-------------------------------------------|---------------|------------
 [class158]  | British Rail Class 158 Express Sprinter   | Beta          | ![class158](docs/class158_thumb.jpg)
-[metro]     | Metro train inspired by B07 DLR train     | Beta          |
+[metro]     | Metro train inspired by B07 DLR train     | Beta          | ![metro](docs/metro_thumb.jpg)
 
 [class158]: ./docs/class158.md
 [metro]: ./docs/metro.md
