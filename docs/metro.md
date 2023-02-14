@@ -4,7 +4,7 @@ Metro (Inspired by DLR B07)
 To-do list
 ----------
 
- - [ ] Seat models
+ - [x] Seat models
 
 
 Stations
