@@ -1,7 +1,7 @@
 British Rail Class 158 Express Sprinter
 =======================================
 
-![Screenshot](./screenshot.jpg)
+![Screenshot](./class158.jpg)
 
 To-do list
 ----------

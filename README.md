@@ -4,7 +4,7 @@ HoganFam Minecraft Train Pack
 This project is to create some semi-realistic trains for use with Minecraft
 Java Edition and the [TrainCarts Spigot plugin].
 
-![Screenshot](docs/screenshot.jpg)
+![Screenshot](docs/class158.jpg)
 
 It consists of a resouce pack containing models and textures for various train
 parts (which the Minecraft clients will need), and a saved train module to be
@@ -33,7 +33,7 @@ The following trains are provided:
 
 Train ID    | Name                                      | Status        | Screenshot
 ------------|-------------------------------------------|---------------|------------
-[class158]  | British Rail Class 158 Express Sprinter   | Beta          | ![class158](docs/class158.jpg)
+[class158]  | British Rail Class 158 Express Sprinter   | Beta          | ![class158](docs/class158_thumb.jpg)
 [metro]     | Metro train inspired by B07 DLR train     | Beta          |
 
 [class158]: ./docs/class158.md
