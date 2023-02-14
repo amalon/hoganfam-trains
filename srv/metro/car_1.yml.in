@@ -49,27 +49,12 @@
             sitting: false
             attachments:
               0:
-                type: SEAT
-                item:
-                  ==: org.bukkit.inventory.ItemStack
-                  v: 3105
-                  type: OAK_PLANKS
-                position:
-                  transform: head
-                  posX: 0.0
-                  posY: 0.0
-                  posZ: 0.0
-                  rotX: 0.0
-                  rotY: 0.0
-                  rotZ: 0.0
-                displayMode: DEFAULT
-                lockRotation: true
-                firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: OFF
-                displayItem:
-                  enabled: false
-                ejectPosition:
-                  lockRotation: false
+#define POS_Z 1.0
+#define ROT_Y 0
+#include "seats_airline.yml.in"
+              1:
+#define POS_Z -0.75
+#include "seats_metro.yml.in"
           1:
             type: ITEM
             position:
@@ -231,6 +216,9 @@
                 animations:
                   DOOR_ANIM_2:
 #include "door_right_anim.yml"
+              6:
+#define POS_Z 1.34
+#include "seats_metro.yml.in"
           2:
             type: ITEM
             position:
@@ -269,61 +257,13 @@
             sitting: false
             attachments:
               0:
-                type: SEAT
-                item:
-                  ==: org.bukkit.inventory.ItemStack
-                  v: 3105
-                  type: OAK_PLANKS
-                position:
-                  transform: head
-                  posX: 1.1
-                  posY: 0.0
-                  posZ: 0.0
-                  rotX: 0.0
-                  rotY: 90.00000000000001
-                  rotZ: 0.0
-                displayMode: DEFAULT
-                lockRotation: true
-                firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: OFF
-                displayItem:
-                  enabled: false
-                ejectPosition:
-                  lockRotation: false
-                  posX: 0.0
-                  posY: 0.0
-                  posZ: 0.0
-                  rotX: 0.0
-                  rotY: 0.0
-                  rotZ: 0.0
+#define POS_Z 0
+#define ROT_Y 0
+#include "seats_airline.yml.in"
               1:
-                type: SEAT
-                item:
-                  ==: org.bukkit.inventory.ItemStack
-                  v: 3105
-                  type: OAK_PLANKS
-                position:
-                  transform: head
-                  posX: -1.1
-                  posY: 0.0
-                  posZ: 0.0
-                  rotX: 0.0
-                  rotY: -90.0
-                  rotZ: 0.0
-                displayMode: DEFAULT
-                lockRotation: true
-                firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: OFF
-                displayItem:
-                  enabled: false
-                ejectPosition:
-                  lockRotation: false
-                  posX: 0.0
-                  posY: 0.0
-                  posZ: 0.0
-                  rotX: 0.0
-                  rotY: 0.0
-                  rotZ: 0.0
+#define POS_Z 0
+#define ROT_Y 180
+#include "seats_airline.yml.in"
           3:
             type: ITEM
             position:
@@ -486,6 +426,9 @@
                 animations:
                   DOOR_ANIM_1:
 #include "door_right_anim.yml"
+              6:
+#define POS_Z 1.34
+#include "seats_metro.yml.in"
           4:
             type: ITEM
             position:
@@ -524,61 +467,8 @@
             sitting: false
             attachments:
               0:
-                type: SEAT
-                item:
-                  ==: org.bukkit.inventory.ItemStack
-                  v: 3105
-                  type: OAK_PLANKS
-                position:
-                  transform: head
-                  posX: 1.1
-                  posY: 0.0
-                  posZ: 0.0
-                  rotX: 0.0
-                  rotY: 90.00000000000001
-                  rotZ: 0.0
-                displayMode: DEFAULT
-                lockRotation: true
-                firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: OFF
-                displayItem:
-                  enabled: false
-                ejectPosition:
-                  lockRotation: false
-                  posX: 0.0
-                  posY: 0.0
-                  posZ: 0.0
-                  rotX: 0.0
-                  rotY: 0.0
-                  rotZ: 0.0
-              1:
-                type: SEAT
-                item:
-                  ==: org.bukkit.inventory.ItemStack
-                  v: 3105
-                  type: OAK_PLANKS
-                position:
-                  transform: head
-                  posX: -1.1
-                  posY: 0.0
-                  posZ: 0.0
-                  rotX: 0.0
-                  rotY: -90.0
-                  rotZ: 0.0
-                displayMode: DEFAULT
-                lockRotation: true
-                firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: OFF
-                displayItem:
-                  enabled: false
-                ejectPosition:
-                  lockRotation: false
-                  posX: 0.0
-                  posY: 0.0
-                  posZ: 0.0
-                  rotX: 0.0
-                  rotY: 0.0
-                  rotZ: 0.0
+#define POS_Z -0.34
+#include "seats_metro.yml.in"
           5:
             type: EMPTY
             item:

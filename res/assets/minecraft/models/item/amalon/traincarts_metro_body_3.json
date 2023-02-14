@@ -149,6 +149,74 @@
 				"up": {"uv": [6.25, 4.25, 6.75, 4.75], "texture": "#0"},
 				"down": {"uv": [7.25, 4.25, 7.75, 4.75], "texture": "#0"}
 			}
+		},
+		{
+			"name": "Table",
+			"from": [-14, 9, 5],
+			"to": [-11, 10, 11],
+			"faces": {
+				"north": {"uv": [0, 15, 1, 16], "texture": "#0"},
+				"east": {"uv": [0, 15, 1, 16], "texture": "#0"},
+				"south": {"uv": [0, 15, 1, 16], "texture": "#0"},
+				"up": {"uv": [0, 15, 1, 16], "texture": "#0"},
+				"down": {"uv": [0, 15, 1, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Table",
+			"from": [27, 9, 5],
+			"to": [30, 10, 11],
+			"faces": {
+				"north": {"uv": [0, 15, 1, 16], "texture": "#0"},
+				"south": {"uv": [0, 15, 1, 16], "texture": "#0"},
+				"west": {"uv": [0, 15, 1, 16], "texture": "#0"},
+				"up": {"uv": [0, 15, 1, 16], "texture": "#0"},
+				"down": {"uv": [0, 15, 1, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Bar",
+			"from": [0, -2, 22],
+			"to": [1, 31, 23],
+			"faces": {
+				"north": {"uv": [1, 15, 2, 16], "texture": "#0"},
+				"east": {"uv": [1, 15, 2, 16], "texture": "#0"},
+				"south": {"uv": [1, 15, 2, 16], "texture": "#0"},
+				"west": {"uv": [1, 15, 2, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Bar",
+			"from": [15, -2, 22],
+			"to": [16, 31, 23],
+			"faces": {
+				"north": {"uv": [1, 15, 2, 16], "texture": "#0"},
+				"east": {"uv": [1, 15, 2, 16], "texture": "#0"},
+				"south": {"uv": [1, 15, 2, 16], "texture": "#0"},
+				"west": {"uv": [1, 15, 2, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Bar",
+			"from": [15, -2, -6],
+			"to": [16, 31, -5],
+			"faces": {
+				"north": {"uv": [1, 15, 2, 16], "texture": "#0"},
+				"east": {"uv": [1, 15, 2, 16], "texture": "#0"},
+				"south": {"uv": [1, 15, 2, 16], "texture": "#0"},
+				"west": {"uv": [1, 15, 2, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Bar",
+			"from": [0, -2, -6],
+			"to": [1, 31, -5],
+			"faces": {
+				"north": {"uv": [1, 15, 2, 16], "texture": "#0"},
+				"east": {"uv": [1, 15, 2, 16], "texture": "#0"},
+				"south": {"uv": [1, 15, 2, 16], "texture": "#0"},
+				"west": {"uv": [1, 15, 2, 16], "texture": "#0"}
+			}
 		}
 	],
 	"display": {
@@ -169,6 +237,18 @@
 			"color": 0,
 			"children": [10]
 		},
-		11
+		11,
+		{
+			"name": "Tables",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [12, 13]
+		},
+		{
+			"name": "Bars",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [14, 15, 16, 17]
+		}
 	]
 }
