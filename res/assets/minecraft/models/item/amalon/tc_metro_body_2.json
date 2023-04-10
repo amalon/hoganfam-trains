@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/amalon/traincarts_metro_skin2",
-		"particle": "item/amalon/traincarts_metro_skin2"
+		"0": "item/amalon/tc_metro_skin2",
+		"particle": "item/amalon/tc_metro_skin2"
 	},
 	"elements": [
 		{

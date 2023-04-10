@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "item/amalon/traincarts_c158_front",
-		"2": "item/amalon/traincarts_c158_base",
-		"particle": "item/amalon/traincarts_c158_base"
+		"1": "item/amalon/tc_c158_front",
+		"2": "item/amalon/tc_c158_base",
+		"particle": "item/amalon/tc_c158_base"
 	},
 	"elements": [
 		{
