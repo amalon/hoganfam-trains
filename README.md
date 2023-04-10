@@ -101,14 +101,14 @@ Minecraft Java Edition server to point your players at it by setting the
 following in your `server.properties` file:
 
 ```
-resource-pack=https\://github.com/amalon/hoganfam-trains/releases/download/v23.02.a/hoganfam_trains_v2302a.zip
-resource-pack-sha1=fc94002f07a9f74cd786c64e23c8236f4b3c148c
+resource-pack=https\://github.com/amalon/hoganfam-trains/releases/download/v23.04.a/hoganfam_trains_v2304a.zip
+resource-pack-sha1=44597c48031e1f267f0a445915838e9f9176bce5
 ```
 
 The SHA1 hash can be found using `sha1sums`:
 
 ```shell
-$ sha1sum hoganfam_trains_v2302a.zip
+$ sha1sum hoganfam_trains_v2304a.zip
 ```
 
 ### The Saved Train Module
