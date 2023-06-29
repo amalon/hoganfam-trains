@@ -73,14 +73,16 @@ Attribution-Share Alike 3.0 Unported] unless otherwise stated.
 Download
 --------
 
-Download links will be provided once a release is made.
+Official releases of the `hoganfam_trains.zip` resource pack and
+`hoganfam_trains.yml` saved train module can be downloaded from the
+[Releases](https://github.com/amalon/hoganfam-trains/releases/) page.
 
 
 Building from Source
 --------------------
 
-The included Makefile builds both a `hoganfam_trains.zip` resource pack and a
-`srv/hoganfam_trains.yml` saved train module:
+The included Makefile can be used to build both a `hoganfam_trains.zip`
+resource pack and a `srv/hoganfam_trains.yml` saved train module from source:
 
 ```shell
 $ make
@@ -91,6 +93,8 @@ Installing
 ----------
 
 ### The Resource Pack
+
+Download or build the `hoganfam_trains.zip` resource pack as described above.
 
 You may want to modify `hoganfam_trains.zip` or combine it with other resource
 packs needed for your server.
@@ -113,8 +117,11 @@ $ sha1sum hoganfam_trains_v2304a.zip
 
 ### The Saved Train Module
 
-Copy the saved train module file `srv/hoganfam_trains.yml` to
-`plugins/Train_Carts/savedTrainModules` on your Minecraft Java Edition server.
+Download or build the `hoganfam_trains.yml` saved train module as described
+above.
+
+Copy `hoganfam_trains.yml` to `plugins/Train_Carts/savedTrainModules` on your
+Minecraft Java Edition server.
 
 Modules can be reloaded with the TrainCarts command:
 
