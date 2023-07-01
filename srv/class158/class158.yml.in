@@ -18,7 +18,7 @@ class158:
   keepChunksLoaded: true
   carts:
     0:
-#include "bogie.yml"
+#include "bogie.yml.in"
       flipped: false
     1:
 #define DOOR_ANIM_1 doors_l
@@ -26,10 +26,10 @@ class158:
 #include "car_1.yml.in"
       flipped: false
     2:
-#include "bogie.yml"
+#include "bogie.yml.in"
       flipped: true
     3:
-#include "bogie.yml"
+#include "bogie.yml.in"
       flipped: false
     4:
 #define DOOR_ANIM_1 doors_r
@@ -37,5 +37,5 @@ class158:
 #include "car_1.yml.in"
       flipped: true
     5:
-#include "bogie.yml"
+#include "bogie.yml.in"
       flipped: true

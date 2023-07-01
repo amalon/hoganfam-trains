@@ -149,7 +149,7 @@
                     Damage: 26
                 animations:
                   DOOR_ANIM_1:
-#include "door_left_anim.yml"
+#include "door_left_anim.yml.in"
               3:
                 type: ITEM
                 position:
@@ -171,7 +171,7 @@
                     Damage: 27
                 animations:
                   DOOR_ANIM_1:
-#include "door_right_anim.yml"
+#include "door_right_anim.yml.in"
               4:
                 type: ITEM
                 position:
@@ -193,7 +193,7 @@
                     Damage: 26
                 animations:
                   DOOR_ANIM_2:
-#include "door_left_anim.yml"
+#include "door_left_anim.yml.in"
               5:
                 type: ITEM
                 position:
@@ -215,7 +215,7 @@
                     Damage: 27
                 animations:
                   DOOR_ANIM_2:
-#include "door_right_anim.yml"
+#include "door_right_anim.yml.in"
               6:
 #define POS_Z 1.34
 #include "seats_metro.yml.in"
@@ -359,7 +359,7 @@
                     Damage: 26
                 animations:
                   DOOR_ANIM_2:
-#include "door_left_anim.yml"
+#include "door_left_anim.yml.in"
               3:
                 type: ITEM
                 position:
@@ -381,7 +381,7 @@
                     Damage: 27
                 animations:
                   DOOR_ANIM_2:
-#include "door_right_anim.yml"
+#include "door_right_anim.yml.in"
               4:
                 type: ITEM
                 position:
@@ -403,7 +403,7 @@
                     Damage: 26
                 animations:
                   DOOR_ANIM_1:
-#include "door_left_anim.yml"
+#include "door_left_anim.yml.in"
               5:
                 type: ITEM
                 position:
@@ -425,7 +425,7 @@
                     Damage: 27
                 animations:
                   DOOR_ANIM_1:
-#include "door_right_anim.yml"
+#include "door_right_anim.yml.in"
               6:
 #define POS_Z 1.34
 #include "seats_metro.yml.in"

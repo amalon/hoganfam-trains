@@ -52,7 +52,7 @@
                     Damage: 11
                 animations:
                   DOOR_ANIM_1:
-#include "door_left_anim.yml"
+#include "door_left_anim.yml.in"
               1:
                 type: ITEM
                 item:
@@ -74,7 +74,7 @@
                   rotZ: 0.0
                 animations:
                   DOOR_ANIM_1:
-#include "door_right_anim.yml"
+#include "door_right_anim.yml.in"
               2:
                 type: ITEM
                 item:
@@ -96,7 +96,7 @@
                   rotZ: 0.0
                 animations:
                   DOOR_ANIM_2:
-#include "door_left_anim.yml"
+#include "door_left_anim.yml.in"
               3:
                 type: ITEM
                 item:
@@ -119,7 +119,7 @@
                   anchor: default
                 animations:
                   DOOR_ANIM_2:
-#include "door_right_anim.yml"
+#include "door_right_anim.yml.in"
               4:
                 type: SEAT
                 item:
@@ -450,7 +450,7 @@
                     Damage: 11
                 animations:
                   DOOR_ANIM_2:
-#include "door_left_anim.yml"
+#include "door_left_anim.yml.in"
               1:
                 type: ITEM
                 item:
@@ -472,7 +472,7 @@
                   rotZ: 0.0
                 animations:
                   DOOR_ANIM_2:
-#include "door_right_anim.yml"
+#include "door_right_anim.yml.in"
               2:
                 type: ITEM
                 item:
@@ -494,7 +494,7 @@
                   rotZ: 0.0
                 animations:
                   DOOR_ANIM_1:
-#include "door_left_anim.yml"
+#include "door_left_anim.yml.in"
               3:
                 type: ITEM
                 item:
@@ -517,7 +517,7 @@
                   anchor: default
                 animations:
                   DOOR_ANIM_1:
-#include "door_right_anim.yml"
+#include "door_right_anim.yml.in"
               4:
                 type: PLATFORM
                 item:

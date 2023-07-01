@@ -1,2 +1,2 @@
-#include "class158/class158.yml"
-#include "metro/metro.yml"
+#include "class158/class158.yml.in"
+#include "metro/metro.yml.in"
