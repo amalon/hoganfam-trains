@@ -1,4 +1,4 @@
-#define ENABLE_PLATFORMS 1
+#define ENABLE_PLATFORMS 0
 #define ENABLE_SEATING   1
 #define ENABLE_SEATS     1
 #include "class158/class158.yml.in"

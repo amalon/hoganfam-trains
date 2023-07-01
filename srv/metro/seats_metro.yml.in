@@ -18,6 +18,7 @@
                     meta-type: UNSPECIFIC
                     Unbreakable: true
                     Damage: 24
+#if ENABLE_SEATS
                 attachments:
                   0:
                     type: SEAT
@@ -77,4 +78,5 @@
                       rotX: 0.0
                       rotY: 0.0
                       rotZ: 0.0
+#endif // ENABLE_SEATS
 #undef POS_Z

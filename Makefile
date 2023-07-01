@@ -1,6 +1,7 @@
 RESOURCE_PACK := hoganfam_trains.zip
 
 YML_FILES += srv/hoganfam_trains.yml
+YML_FILES += srv/hoganfam_trains_lite.yml
 
 YML_IN_FILES := $(YML_FILES:.yml=.yml.in)
 

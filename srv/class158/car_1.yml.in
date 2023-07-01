@@ -149,6 +149,7 @@
                   rotY: 0.0
                   rotZ: 0.0
                   anchor: default
+#if ENABLE_PLATFORMS
               5:
                 type: PLATFORM
                 item:
@@ -185,7 +186,9 @@
                 lockRotation: false
                 firstPersonViewMode: DYNAMIC
                 firstPersonViewLockMode: OFF
+#endif // ENABLE_PLATFORMS
             animations: {}
+#if ENABLE_SEATING
           1:
 #define POS_Z 7.16
 #include "table_seats.yml.in"
@@ -213,6 +216,7 @@
           9:
 #define POS_Z -7.16
 #include "table_seats.yml.in"
+#endif // ENABLE_SEATING
           10:
             type: ITEM
             position:
@@ -518,6 +522,7 @@
                 animations:
                   DOOR_ANIM_1:
 #include "door_right_anim.yml.in"
+#if ENABLE_PLATFORMS
               4:
                 type: PLATFORM
                 item:
@@ -556,6 +561,8 @@
                 firstPersonViewLockMode: OFF
             editor:
               expanded: false
+#endif // ENABLE_PLATFORMS
+#if ENABLE_PLATFORMS
           16:
             type: EMPTY
             item:
@@ -641,6 +648,7 @@
 #include "platform_strip.yml.in"
             editor:
               expanded: false
+#endif // ENABLE_PLATFORMS
         physical:
           cartLength: 14.15
           wheelCenter: 0.0

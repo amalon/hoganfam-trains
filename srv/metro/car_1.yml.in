@@ -48,6 +48,7 @@
             entityType: MINECART
             sitting: false
             attachments:
+#if ENABLE_SEATING
               0:
 #define POS_Z 1.0
 #define ROT_Y 0
@@ -55,6 +56,7 @@
               1:
 #define POS_Z -0.75
 #include "seats_metro.yml.in"
+#endif // ENABLE_SEATING
           1:
             type: ITEM
             position:
@@ -92,6 +94,7 @@
             entityType: MINECART
             sitting: false
             attachments:
+#if ENABLE_PLATFORMS
               0:
                 type: PLATFORM
                 item:
@@ -128,6 +131,7 @@
                 lockRotation: false
                 firstPersonViewMode: DYNAMIC
                 firstPersonViewLockMode: OFF
+#endif
               2:
                 type: ITEM
                 position:
@@ -216,9 +220,11 @@
                 animations:
                   DOOR_ANIM_2:
 #include "door_right_anim.yml.in"
+#if ENABLE_SEATING
               6:
 #define POS_Z 1.34
 #include "seats_metro.yml.in"
+#endif // ENABLE_SEATING
           2:
             type: ITEM
             position:
@@ -257,6 +263,7 @@
             sitting: false
             attachments:
               0:
+#if ENABLE_SEATING
 #define POS_Z 0
 #define ROT_Y 0
 #include "seats_airline.yml.in"
@@ -264,6 +271,7 @@
 #define POS_Z 0
 #define ROT_Y 180
 #include "seats_airline.yml.in"
+#endif // ENABLE_SEATING
           3:
             type: ITEM
             position:
@@ -302,6 +310,7 @@
             entityType: MINECART
             sitting: false
             attachments:
+#if ENABLE_PLATFORMS
               0:
                 type: PLATFORM
                 item:
@@ -338,6 +347,7 @@
                 lockRotation: false
                 firstPersonViewMode: DYNAMIC
                 firstPersonViewLockMode: OFF
+#endif // ENABLE_PLATFORMS
               2:
                 type: ITEM
                 position:
@@ -426,9 +436,11 @@
                 animations:
                   DOOR_ANIM_1:
 #include "door_right_anim.yml.in"
+#if ENABLE_SEATING
               6:
 #define POS_Z 1.34
 #include "seats_metro.yml.in"
+#endif // ENABLE_SEATING
           4:
             type: ITEM
             position:
@@ -466,9 +478,12 @@
             entityType: MINECART
             sitting: false
             attachments:
+#if ENABLE_SEATING
               0:
 #define POS_Z -0.34
 #include "seats_metro.yml.in"
+#endif // ENABLE_SEATING
+#if ENABLE_PLATFORMS
           5:
             type: EMPTY
             item:
@@ -533,6 +548,7 @@
 #include "platform_strip.yml.in"
             editor:
               expanded: false
+#endif // ENABLE_PLATFORMS
         physical:
           cartLength: 10.0
           wheelCenter: 1.0

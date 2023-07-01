@@ -18,6 +18,7 @@
                     Damage: 25
                 entityType: MINECART
                 sitting: false
+#if ENABLE_SEATS
                 attachments:
                   0:
                     type: SEAT
@@ -91,5 +92,6 @@
                       rotX: 0.0
                       rotY: 0.0
                       rotZ: 0.0
+#endif // ENABLE_SEATS
 #undef POS_Z
 #undef ROT_Y
