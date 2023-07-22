@@ -10,6 +10,8 @@ It consists of a resouce pack containing models and textures for various train
 parts (which the Minecraft clients will need), and a saved train module to be
 loaded on the server running the plugin to organise the models into trains.
 
+- Matrix Chat Room: [#mc-trains:hoganfam.uk]
+
 
 Features
 --------
@@ -192,5 +194,6 @@ train information above for recommended values.
 
 [TrainCarts Spigot plugin]: https://www.spigotmc.org/resources/traincarts.39592/
 [TC Coasters Spigot plugin]: https://www.spigotmc.org/resources/tc-coasters.59583/
+[#mc-trains:hoganfam.uk](https://matrix.to/#/#mc-trains:hoganfam.uk?via=hoganfam.uk)
 [GNU General Public License, version 2]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 [Creative Commons Attribution-Share Alike 3.0 Unported]: https://creativecommons.org/licenses/by-sa/3.0/
