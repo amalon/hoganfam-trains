@@ -23,12 +23,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 2975
-              type: GOLDEN_PICKAXE
+              type: MODEL_ITEM(METRO, BOGIE)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(METRO, BOGIE)
                 Unbreakable: true
-                Damage: 28
+                Damage: MODEL_DAMAGE(METRO, BOGIE)
         physical:
           cartLength: 1.75
           wheelCenter: -1.4

@@ -12,12 +12,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: GOLDEN_PICKAXE
+                  type: MODEL_ITEM(METRO, SEATS_METRO)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
+                    custom-model-data: MODEL_DATA(METRO, SEATS_METRO)
                     Unbreakable: true
-                    Damage: 24
+                    Damage: MODEL_DAMAGE(METRO, SEATS_METRO)
 #if ENABLE_SEATS
                 attachments:
                   0:

@@ -23,12 +23,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 2975
-              type: GOLDEN_PICKAXE
+              type: MODEL_ITEM(C158, FRONT)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(C158, FRONT)
                 Unbreakable: true
-                Damage: 9
+                Damage: MODEL_DAMAGE(C158, FRONT)
             attachments:
               0:
                 type: ITEM
@@ -43,12 +44,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: GOLDEN_PICKAXE
+                  type: MODEL_ITEM(C158, DOOR_LEFT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
+                    custom-model-data: MODEL_DATA(C158, DOOR_LEFT)
                     Unbreakable: true
-                    Damage: 11
+                    Damage: MODEL_DAMAGE(C158, DOOR_LEFT)
                 animations:
                   DOOR_ANIM_1:
 #include "door_left_anim.yml.in"
@@ -57,12 +59,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: GOLDEN_PICKAXE
+                  type: MODEL_ITEM(C158, DOOR_RIGHT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
+                    custom-model-data: MODEL_DATA(C158, DOOR_RIGHT)
                     Unbreakable: true
-                    Damage: 12
+                    Damage: MODEL_DAMAGE(C158, DOOR_RIGHT)
                 position:
                   transform: head
                   posX: 0.0
@@ -79,12 +82,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: GOLDEN_PICKAXE
+                  type: MODEL_ITEM(C158, DOOR_LEFT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
+                    custom-model-data: MODEL_DATA(C158, DOOR_LEFT)
                     Unbreakable: true
-                    Damage: 11
+                    Damage: MODEL_DAMAGE(C158, DOOR_LEFT)
                 position:
                   transform: HEAD
                   posX: 0.0
@@ -101,12 +105,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: GOLDEN_PICKAXE
+                  type: MODEL_ITEM(C158, DOOR_RIGHT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
+                    custom-model-data: MODEL_DATA(C158, DOOR_RIGHT)
                     Unbreakable: true
-                    Damage: 12
+                    Damage: MODEL_DAMAGE(C158, DOOR_RIGHT)
                 position:
                   transform: HEAD
                   posX: 0.0
@@ -230,12 +235,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 2975
-              type: GOLDEN_PICKAXE
+              type: MODEL_ITEM(C158, BODY1)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(C158, BODY1)
                 Unbreakable: true
-                Damage: 1
+                Damage: MODEL_DAMAGE(C158, BODY1)
             displayMode: DEFAULT
             lockRotation: false
             firstPersonViewMode: DYNAMIC
@@ -266,12 +272,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 2975
-              type: GOLDEN_PICKAXE
+              type: MODEL_ITEM(C158, BODY2)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(C158, BODY2)
                 Unbreakable: true
-                Damage: 2
+                Damage: MODEL_DAMAGE(C158, BODY2)
             displayMode: DEFAULT
             lockRotation: false
             firstPersonViewMode: DYNAMIC
@@ -302,12 +309,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 2975
-              type: GOLDEN_PICKAXE
+              type: MODEL_ITEM(C158, BODY3)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(C158, BODY3)
                 Unbreakable: true
-                Damage: 3
+                Damage: MODEL_DAMAGE(C158, BODY3)
             displayMode: DEFAULT
             lockRotation: false
             firstPersonViewMode: DYNAMIC
@@ -338,12 +346,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 2975
-              type: GOLDEN_PICKAXE
+              type: MODEL_ITEM(C158, BODY4)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(C158, BODY4)
                 Unbreakable: true
-                Damage: 4
+                Damage: MODEL_DAMAGE(C158, BODY4)
             displayMode: DEFAULT
             lockRotation: false
             firstPersonViewMode: DYNAMIC
@@ -374,12 +383,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 2975
-              type: GOLDEN_PICKAXE
+              type: MODEL_ITEM(C158, BODY5)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(C158, BODY5)
                 Unbreakable: true
-                Damage: 5
+                Damage: MODEL_DAMAGE(C158, BODY5)
             displayMode: DEFAULT
             lockRotation: false
             firstPersonViewMode: DYNAMIC
@@ -401,12 +411,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 2975
-              type: GOLDEN_PICKAXE
+              type: MODEL_ITEM(C158, BACK)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(C158, BACK)
                 Unbreakable: true
-                Damage: 7
+                Damage: MODEL_DAMAGE(C158, BACK)
             position:
               transform: HEAD
               posX: 0.0
@@ -445,12 +456,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: GOLDEN_PICKAXE
+                  type: MODEL_ITEM(C158, DOOR_LEFT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
+                    custom-model-data: MODEL_DATA(C158, DOOR_LEFT)
                     Unbreakable: true
-                    Damage: 11
+                    Damage: MODEL_DAMAGE(C158, DOOR_LEFT)
                 animations:
                   DOOR_ANIM_2:
 #include "door_left_anim.yml.in"
@@ -459,12 +471,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: GOLDEN_PICKAXE
+                  type: MODEL_ITEM(C158, DOOR_RIGHT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
+                    custom-model-data: MODEL_DATA(C158, DOOR_RIGHT)
                     Unbreakable: true
-                    Damage: 12
+                    Damage: MODEL_DAMAGE(C158, DOOR_RIGHT)
                 position:
                   transform: head
                   posX: 0.0
@@ -481,12 +494,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: GOLDEN_PICKAXE
+                  type: MODEL_ITEM(C158, DOOR_LEFT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
+                    custom-model-data: MODEL_DATA(C158, DOOR_LEFT)
                     Unbreakable: true
-                    Damage: 11
+                    Damage: MODEL_DAMAGE(C158, DOOR_LEFT)
                 position:
                   transform: HEAD
                   posX: 0.0
@@ -503,12 +517,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: GOLDEN_PICKAXE
+                  type: MODEL_ITEM(C158, DOOR_RIGHT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
+                    custom-model-data: MODEL_DATA(C158, DOOR_RIGHT)
                     Unbreakable: true
-                    Damage: 12
+                    Damage: MODEL_DAMAGE(C158, DOOR_RIGHT)
                 position:
                   transform: HEAD
                   posX: 0.0

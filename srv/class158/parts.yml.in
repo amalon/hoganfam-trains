@@ -1,0 +1,27 @@
+#pragma once
+#include "../parts.yml.in"
+
+#define MODEL_ITEM_C158(PART)			MODEL_ITEM_DEFAULT
+#define MODEL_DAMAGE_C158(PART)			MODEL_DAMAGE_DEFAULT
+#define MODEL_DATA_C158(PART)			MODEL_DATA_C158_##PART
+
+// Parts
+
+// Main body
+#define MODEL_DATA_C158_FRONT			00
+#define MODEL_DATA_C158_BODY1			01
+#define MODEL_DATA_C158_BODY2			02
+#define MODEL_DATA_C158_BODY3			03
+#define MODEL_DATA_C158_BODY4			04
+#define MODEL_DATA_C158_BODY5			05
+#define MODEL_DATA_C158_BACK			06
+
+// Animated body
+#define MODEL_DATA_C158_DOOR_LEFT		10
+#define MODEL_DATA_C158_DOOR_RIGHT		11
+
+// Interior
+#define MODEL_DATA_C158_INTERIOR_TABLES		20
+
+// Underside
+#define MODEL_DATA_C158_BOGIE			30

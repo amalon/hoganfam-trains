@@ -1,0 +1,25 @@
+#pragma once
+#include "../parts.yml.in"
+
+#define MODEL_ITEM_METRO(PART)			MODEL_ITEM_DEFAULT
+#define MODEL_DAMAGE_METRO(PART)		MODEL_DAMAGE_DEFAULT
+#define MODEL_DATA_METRO(PART)			MODEL_DATA_METRO_##PART
+
+// Parts
+
+// Main body
+#define MODEL_DATA_METRO_BODY_FRONT		00
+#define MODEL_DATA_METRO_BODY_2			01
+#define MODEL_DATA_METRO_BODY_3			02
+#define MODEL_DATA_METRO_BODY_BACK		03
+
+// Animated body
+#define MODEL_DATA_METRO_DOOR_LEFT		10
+#define MODEL_DATA_METRO_DOOR_RIGHT		11
+
+// Interior
+#define MODEL_DATA_METRO_SEATS_METRO		20
+#define MODEL_DATA_METRO_SEATS_AIRLINE		21
+
+// Underside
+#define MODEL_DATA_METRO_BOGIE			30

@@ -1,3 +1,4 @@
+#include "parts.yml.in"
 class158:
   name: class158
   savedName: class158
