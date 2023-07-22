@@ -11,8 +11,6 @@
                   rotX: 0.0
                   rotY: 0.0
                   rotZ: 0.0
-                entityType: MINECART
-                sitting: false
                 attachments:
                   0:
                     type: PLATFORM

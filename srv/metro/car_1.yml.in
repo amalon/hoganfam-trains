@@ -9,7 +9,6 @@
       exitPitch: 0.0
       model:
         type: EMPTY
-        entityType: MINECART
         attachments:
           0:
             type: ITEM
@@ -486,10 +485,6 @@
 #if ENABLE_PLATFORMS
           5:
             type: EMPTY
-            item:
-              ==: org.bukkit.inventory.ItemStack
-              v: 2975
-              type: OAK_PLANKS
             position:
               transform: head
               posX: 0.0
@@ -498,8 +493,6 @@
               rotX: 0.0
               rotY: 0.0
               rotZ: 0.0
-            entityType: MINECART
-            sitting: false
             attachments:
               0:
 #define POS_Z 7.32
@@ -554,7 +547,6 @@
           wheelCenter: 1.0
           wheelDistance: 10.0
         position: {}
-        sitting: false
       entityType: MINECART
 #undef DOOR_ANIM_1
 #undef DOOR_ANIM_2

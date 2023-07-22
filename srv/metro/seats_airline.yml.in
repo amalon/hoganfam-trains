@@ -30,15 +30,6 @@
                       rotX: 0.0
                       rotY: 0.0
                       rotZ: 0.0
-                    item:
-                      ==: org.bukkit.inventory.ItemStack
-                      v: 3105
-                      type: GOLDEN_PICKAXE
-                      meta:
-                        ==: ItemMeta
-                        meta-type: UNSPECIFIC
-                        Unbreakable: true
-                        Damage: 25
                     entityType: MINECART
                     sitting: false
                     displayMode: DEFAULT
@@ -66,15 +57,6 @@
                       rotX: 0.0
                       rotY: 0.0
                       rotZ: 0.0
-                    item:
-                      ==: org.bukkit.inventory.ItemStack
-                      v: 3105
-                      type: GOLDEN_PICKAXE
-                      meta:
-                        ==: ItemMeta
-                        meta-type: UNSPECIFIC
-                        Unbreakable: true
-                        Damage: 25
                     entityType: MINECART
                     sitting: false
                     displayMode: DEFAULT
