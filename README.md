@@ -77,6 +77,11 @@ Official releases of the `hoganfam_trains.zip` resource pack and
 `hoganfam_trains.yml` saved train module can be downloaded from the
 [Releases](https://github.com/amalon/hoganfam-trains/releases/) page.
 
+The `hoganfam_trains_lite.yml` saved train module can be used in place of
+`hoganfam_trains.yml` to significantly reduce the number of entities. Trains in
+the lite saved train module lack platforms that can be walked on while the
+train is stopped.
+
 
 Building from Source
 --------------------
