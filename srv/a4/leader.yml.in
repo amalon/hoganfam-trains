@@ -1,0 +1,113 @@
+#include "parts.yml.in"
+      exitOffset:
+        ==: Vector
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      exitYawLocked: false
+      exitYaw: 0.0
+      exitPitchLocked: false
+      exitPitch: 0.0
+      model:
+        physical:
+          cartLength: 2.98
+          wheelCenter: -0.74
+          wheelDistance: 1.91
+        type: EMPTY
+        position:
+          transform: HYBRID_ARMORSTAND_HEAD
+          posX: 0.0
+          posY: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        attachments:
+          0:
+            type: ITEM
+            position:
+              transform: HYBRID_ARMORSTAND_HEAD
+              posX: 0.0
+              posY: 0.48
+              posZ: -0.73
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3465
+              type: MODEL_ITEM(A4, LEADER)
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(A4, LEADER)
+                Unbreakable: true
+                Damage: MODEL_DAMAGE(A4, LEADER)
+          1:
+            type: ITEM
+            position:
+              transform: HYBRID_ARMORSTAND_HEAD
+              posX: 0.0
+              posY: 0.39
+              posZ: 0.22
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+              anchor: default
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3465
+              type: MODEL_ITEM(A4, WHEELS_LEADER)
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(A4, WHEELS_LEADER)
+                Unbreakable: true
+                Damage: MODEL_DAMAGE(A4, WHEELS_LEADER)
+            animations:
+              moveleader:
+                nodes:
+                  - t=0.25
+                  - t=0.25 pitch=90.0
+                  - t=0.25 pitch=180.0
+                  - t=0.25 pitch=270.0
+                  - t=0.0 pitch=360.0
+                movementControlled: true
+                looped: true
+                speed: 0.421
+                autoplay: true
+          2:
+            type: ITEM
+            position:
+              transform: HYBRID_ARMORSTAND_HEAD
+              posX: 0.0
+              posY: 0.39
+              posZ: -1.69
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+              anchor: default
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3465
+              type: MODEL_ITEM(A4, WHEELS_LEADER)
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(A4, WHEELS_LEADER)
+                Unbreakable: true
+                Damage: MODEL_DAMAGE(A4, WHEELS_LEADER)
+            animations:
+              moveleader:
+                nodes:
+                  - t=0.25
+                  - t=0.25 pitch=90.0
+                  - t=0.25 pitch=180.0
+                  - t=0.25 pitch=270.0
+                  - t=0.0 pitch=360.0
+                movementControlled: true
+                looped: true
+                speed: 0.421
+                autoplay: true
+      entityType: MINECART
+      flipped: false

@@ -25,6 +25,20 @@
 		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":220}, "model": "item/amalon/tc_metro_seats_metro"},
 		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":221}, "model": "item/amalon/tc_metro_seats_airline"},
 		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":230}, "model": "item/amalon/tc_metro_bogie"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":300}, "model": "item/amalon/tc_a4_body1"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":301}, "model": "item/amalon/tc_a4_body2"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":302}, "model": "item/amalon/tc_a4_body3"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":303}, "model": "item/amalon/tc_a4_body4"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":310}, "model": "item/amalon/tc_a4_tender1"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":311}, "model": "item/amalon/tc_a4_tender2"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":312}, "model": "item/amalon/tc_a4_tender3"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":320}, "model": "item/amalon/tc_a4_wheels_lead"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":321}, "model": "item/amalon/tc_a4_wheels_pow"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":322}, "model": "item/amalon/tc_a4_wheels_drive"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":323}, "model": "item/amalon/tc_a4_wheels_trail"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":330}, "model": "item/amalon/tc_a4_coupling_rod"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":331}, "model": "item/amalon/tc_a4_connecting_rod"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":340}, "model": "item/amalon/tc_a4_leader"},
 		{"predicate": {"damaged": 1}, "model": "item/golden_pickaxe"}
 	]
 }

@@ -1,0 +1,134 @@
+      model:
+        type: EMPTY
+        attachments:
+          0:
+            type: ITEM
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3465
+              type: MODEL_ITEM(A4, TENDER_BODY1)
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(A4, TENDER_BODY1)
+                Unbreakable: true
+                Damage: MODEL_DAMAGE(A4, TENDER_BODY1)
+            position:
+              transform: HYBRID_ARMORSTAND_HEAD
+              posX: 0.0
+              posY: 1.9000000000000001
+              posZ: 3.7500000000000004
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            firstPersonViewLockMode: 'OFF'
+            displayItem:
+              enabled: false
+            ejectPosition:
+              lockRotation: false
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            text: ' '
+            schematic: ''
+          1:
+            type: ITEM
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3465
+              type: MODEL_ITEM(A4, TENDER_BODY2)
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(A4, TENDER_BODY2)
+                Unbreakable: true
+                Damage: MODEL_DAMAGE(A4, TENDER_BODY2)
+            position:
+              transform: HYBRID_ARMORSTAND_HEAD
+              posX: 0.0
+              posY: 1.9000000000000001
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            firstPersonViewLockMode: 'OFF'
+            displayItem:
+              enabled: false
+            ejectPosition:
+              lockRotation: false
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            text: ' '
+            schematic: ''
+          2:
+            type: ITEM
+            position:
+              transform: HYBRID_ARMORSTAND_HEAD
+              posX: 0.0
+              posY: 1.9000000000000001
+              posZ: -3.75
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            firstPersonViewLockMode: 'OFF'
+            displayItem:
+              enabled: false
+            ejectPosition:
+              lockRotation: false
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            text: ' '
+            schematic: ''
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3465
+              type: MODEL_ITEM(A4, TENDER_BODY3)
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(A4, TENDER_BODY3)
+                Unbreakable: true
+                Damage: MODEL_DAMAGE(A4, TENDER_BODY3)
+        position:
+          transform: HYBRID_ARMORSTAND_HEAD
+          posX: 0.0
+          posY: 0.0
+          posZ: -0.09999999999999999
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        physical:
+          cartLength: 7.6
+          wheelCenter: 0.049999999999999996
+          wheelDistance: 4.88
+      exitOffset:
+        ==: Vector
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      exitYawLocked: false
+      exitYaw: 0.0
+      exitPitchLocked: false
+      exitPitch: 0.0
+      entityType: MINECART
+      flipped: false

@@ -3,3 +3,4 @@
 #define ENABLE_SEATS     1
 #include "class158/class158.yml.in"
 #include "metro/metro.yml.in"
+#include "a4/a4.yml.in"

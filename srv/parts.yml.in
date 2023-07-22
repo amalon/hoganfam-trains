@@ -14,3 +14,4 @@
 // Train types
 #define TRAIN_C158	1
 #define TRAIN_METRO	2
+#define TRAIN_A4	3

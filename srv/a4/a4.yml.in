@@ -1,0 +1,28 @@
+#include "parts.yml.in"
+a4:
+  name: a4
+  savedName: a4
+  allowManualMovement: true
+  wait:
+    distance: 200.0
+    delay: 20.0
+    acceleration: 0.002
+    deceleration: 0.005
+    predict: true
+  speedLimit: 1.0
+  collision:
+    players: CANCEL
+    misc: PUSH
+    train: LINK
+    block: DEFAULT
+  slowDown: false
+  keepChunksLoaded: true
+  carts:
+    0:
+#include "leader.yml.in"
+    1:
+#include "loco.yml.in"
+    2:
+#include "trailer.yml.in"
+    3:
+#include "tender.yml.in"
