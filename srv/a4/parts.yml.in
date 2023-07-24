@@ -31,3 +31,4 @@
 
 // Bogies
 #define MODEL_DATA_A4_LEADER			40
+#define MODEL_DATA_A4_TRAILER			41

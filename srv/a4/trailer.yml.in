@@ -19,6 +19,26 @@
               transform: HYBRID_ARMORSTAND_HEAD
               posX: 0.0
               posY: 0.48
+              posZ: -0.32
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3465
+              type: MODEL_ITEM(A4, TRAILER)
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(A4, TRAILER)
+                Unbreakable: true
+                Damage: MODEL_DAMAGE(A4, TRAILER)
+          1:
+            type: ITEM
+            position:
+              transform: HYBRID_ARMORSTAND_HEAD
+              posX: 0.0
+              posY: 0.48
               posZ: -0.81
               rotX: 0.0
               rotY: 0.0
