@@ -104,15 +104,15 @@
                 position:
                   transform: HYBRID_ARMORSTAND_HEAD
                   posX: 0.88
-                  posY: 0.24000000000000002
+                  posY: 0.24
                   posZ: -0.39
                   rotX: 0.0
                   rotY: 0.0
                   rotZ: 0.0
                 displayMode: DEFAULT
                 lockRotation: true
-                firstPersonViewMode: DYNAMIC
-                firstPersonViewLockMode: SPECTATOR_FREE
+                firstPersonViewMode: DEFAULT
+                firstPersonViewLockMode: 'OFF'
                 displayItem:
                   enabled: false
                 ejectPosition:
@@ -120,6 +120,13 @@
                   posX: 0.0
                   posY: 0.0
                   posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                firstPersonViewPosition:
+                  posX: 0.24
+                  posY: 1.08
+                  posZ: 0.12
                   rotX: 0.0
                   rotY: 0.0
                   rotZ: 0.0
@@ -135,7 +142,7 @@
                   rotZ: 0.0
                 displayMode: DEFAULT
                 lockRotation: true
-                firstPersonViewMode: DYNAMIC
+                firstPersonViewMode: DEFAULT
                 firstPersonViewLockMode: 'OFF'
                 displayItem:
                   enabled: false
@@ -144,6 +151,13 @@
                   posX: 0.0
                   posY: 0.0
                   posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                firstPersonViewPosition:
+                  posX: -0.24
+                  posY: 1.08
+                  posZ: 0.12
                   rotX: 0.0
                   rotY: 0.0
                   rotZ: 0.0
