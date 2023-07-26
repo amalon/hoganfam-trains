@@ -18,7 +18,7 @@
             position:
               transform: HYBRID_ARMORSTAND_HEAD
               posX: 0.0
-              posY: 0.48
+              posY: 0.61
               posZ: -0.32
               rotX: 0.0
               rotY: 0.0
@@ -38,7 +38,7 @@
             position:
               transform: HYBRID_ARMORSTAND_HEAD
               posX: 0.0
-              posY: 0.48
+              posY: 0.61
               posZ: -0.81
               rotX: 0.0
               rotY: 0.0
