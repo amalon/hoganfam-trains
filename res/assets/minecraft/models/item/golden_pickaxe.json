@@ -36,6 +36,7 @@
 		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":321}, "model": "item/amalon/tc_a4_wheels_pow"},
 		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":322}, "model": "item/amalon/tc_a4_wheels_drive"},
 		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":323}, "model": "item/amalon/tc_a4_wheels_trail"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":324}, "model": "item/amalon/tc_a4_wheels_tender"},
 		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":330}, "model": "item/amalon/tc_a4_coupling_rod"},
 		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":331}, "model": "item/amalon/tc_a4_connecting_rod"},
 		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":340}, "model": "item/amalon/tc_a4_leader"},

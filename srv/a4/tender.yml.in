@@ -109,6 +109,138 @@
                 custom-model-data: MODEL_DATA(A4, TENDER_BODY3)
                 Unbreakable: true
                 Damage: MODEL_DAMAGE(A4, TENDER_BODY3)
+          3:
+            type: ITEM
+            position:
+              transform: HYBRID_ARMORSTAND_HEAD
+              posX: 0.0
+              posY: 0.64
+              posZ: 2.49
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+              anchor: default
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3465
+              type: MODEL_ITEM(A4, WHEELS_TENDER)
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(A4, WHEELS_TENDER)
+                Unbreakable: true
+                Damage: MODEL_DAMAGE(A4, WHEELS_TENDER)
+            animations:
+              movetender:
+                nodes:
+                  - t=0.25
+                  - t=0.25 pitch=90.0
+                  - t=0.25 pitch=180.0
+                  - t=0.25 pitch=270.0
+                  - t=0.0 pitch=360.0
+                movementControlled: true
+                looped: true
+                speed: 0.32
+                autoplay: true
+          4:
+            type: ITEM
+            position:
+              transform: HYBRID_ARMORSTAND_HEAD
+              posX: 0.0
+              posY: 0.64
+              posZ: 0.82
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+              anchor: default
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3465
+              type: MODEL_ITEM(A4, WHEELS_TENDER)
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(A4, WHEELS_TENDER)
+                Unbreakable: true
+                Damage: MODEL_DAMAGE(A4, WHEELS_TENDER)
+            animations:
+              movetender:
+                nodes:
+                  - t=0.25
+                  - t=0.25 pitch=90.0
+                  - t=0.25 pitch=180.0
+                  - t=0.25 pitch=270.0
+                  - t=0.0 pitch=360.0
+                movementControlled: true
+                looped: true
+                speed: 0.32
+                autoplay: true
+          5:
+            type: ITEM
+            position:
+              transform: HYBRID_ARMORSTAND_HEAD
+              posX: 0.0
+              posY: 0.64
+              posZ: -0.92
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+              anchor: default
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3465
+              type: MODEL_ITEM(A4, WHEELS_TENDER)
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(A4, WHEELS_TENDER)
+                Unbreakable: true
+                Damage: MODEL_DAMAGE(A4, WHEELS_TENDER)
+            animations:
+              movetender:
+                nodes:
+                  - t=0.25
+                  - t=0.25 pitch=90.0
+                  - t=0.25 pitch=180.0
+                  - t=0.25 pitch=270.0
+                  - t=0.0 pitch=360.0
+                movementControlled: true
+                looped: true
+                speed: 0.32
+                autoplay: true
+          6:
+            type: ITEM
+            position:
+              transform: HYBRID_ARMORSTAND_HEAD
+              posX: 0.0
+              posY: 0.64
+              posZ: -2.46
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+              anchor: default
+            item:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3465
+              type: MODEL_ITEM(A4, WHEELS_TENDER)
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                custom-model-data: MODEL_DATA(A4, WHEELS_TENDER)
+                Unbreakable: true
+                Damage: MODEL_DAMAGE(A4, WHEELS_TENDER)
+            animations:
+              movetender:
+                nodes:
+                  - t=0.25
+                  - t=0.25 pitch=90.0
+                  - t=0.25 pitch=180.0
+                  - t=0.25 pitch=270.0
+                  - t=0.0 pitch=360.0
+                movementControlled: true
+                looped: true
+                speed: 0.32
+                autoplay: true
         position:
           transform: HYBRID_ARMORSTAND_HEAD
           posX: 0.0
