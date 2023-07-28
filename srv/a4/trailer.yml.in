@@ -18,7 +18,7 @@
             position:
               transform: HYBRID_ARMORSTAND_HEAD
               posX: 0.0
-              posY: 0.61
+              posY: 0.73
               posZ: -0.32
               rotX: 0.0
               rotY: 0.0
@@ -55,7 +55,7 @@
                 Unbreakable: true
                 Damage: MODEL_DAMAGE(A4, WHEELS_TRAILER)
             animations:
-              moveleader:
+              movetrailer:
                 nodes:
                   - t=0.25
                   - t=0.25 pitch=90.0
