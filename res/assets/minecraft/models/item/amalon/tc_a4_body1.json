@@ -492,6 +492,29 @@
 			}
 		},
 		{
+			"from": [7.75, 22, 10.2],
+			"to": [8.25, 28, 10.7],
+			"faces": {
+				"north": {"uv": [0.25, 10.8125, 0.3125, 11.5625], "texture": "#0"},
+				"east": {"uv": [0.0625, 10.8125, 0.125, 11.5625], "texture": "#0"},
+				"south": {"uv": [0.625, 10.8125, 0.6875, 11.5625], "texture": "#0"},
+				"west": {"uv": [0.4375, 10.8125, 0.5, 11.5625], "texture": "#0"},
+				"up": {"uv": [0.0625, 10.6875, 0.125, 10.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.25, 24.5, 9.7],
+			"to": [8.75, 27.5, 11.2],
+			"faces": {
+				"north": {"uv": [0.1875, 10.875, 0.375, 11.25], "texture": "#0"},
+				"east": {"uv": [0, 10.875, 0.1875, 11.25], "texture": "#0"},
+				"south": {"uv": [0.5625, 10.875, 0.75, 11.25], "texture": "#0"},
+				"west": {"uv": [0.375, 10.875, 0.5625, 11.25], "texture": "#0"},
+				"up": {"uv": [0, 10.625, 0.1875, 10.8125], "texture": "#0"},
+				"down": {"uv": [0.1875, 10.625, 0.375, 10.8125], "texture": "#0"}
+			}
+		},
+		{
 			"name": "piston",
 			"from": [-4.5, -8, -15],
 			"to": [-2.5, -5, -10],
@@ -1499,6 +1522,12 @@
 			"children": [38, 39, 40, 41, 42, 43, 44]
 		},
 		{
+			"name": "whistle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [45, 46]
+		},
+		{
 			"name": "buffers",
 			"origin": [8, 8, 8],
 			"color": 0,
@@ -1507,23 +1536,23 @@
 					"name": "left buffer",
 					"origin": [0, 0, 0],
 					"color": 0,
-					"children": [45, 46, 47, 48]
+					"children": [47, 48, 49, 50]
 				},
 				{
 					"name": "right buffer",
 					"origin": [0, 0, 0],
 					"color": 0,
-					"children": [49, 50, 51, 52]
+					"children": [51, 52, 53, 54]
 				}
 			]
 		},
-		53,
+		55,
 		{
 			"name": "undercarriage",
 			"origin": [8, 8, 8],
 			"color": 0,
 			"children": [
-				54,
+				56,
 				{
 					"name": "left cylinder",
 					"origin": [8, 8, 8],
@@ -1533,11 +1562,11 @@
 							"name": "cylinder",
 							"origin": [0, 0, 0],
 							"color": 0,
-							"children": [55, 56]
+							"children": [57, 58]
 						},
-						57,
-						58,
 						59,
+						60,
+						61,
 						{
 							"name": "vents",
 							"origin": [0, 0, 0],
@@ -1547,25 +1576,25 @@
 									"name": "vent hold",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [60, 61, 62]
+									"children": [62, 63, 64]
 								},
 								{
 									"name": "middle cylinder vent",
 									"origin": [8, 8, 8],
 									"color": 0,
-									"children": [63, 64, 65, 66, 67, 68, 69]
+									"children": [65, 66, 67, 68, 69, 70, 71]
 								},
 								{
 									"name": "front vent",
 									"origin": [8, 8, 8],
 									"color": 0,
-									"children": [70, 71, 72, 73, 74, 75, 76]
+									"children": [72, 73, 74, 75, 76, 77, 78]
 								},
 								{
 									"name": "rear vent",
 									"origin": [8, 8, 8],
 									"color": 0,
-									"children": [77, 78, 79, 80, 81, 82, 83]
+									"children": [79, 80, 81, 82, 83, 84, 85]
 								}
 							]
 						}
@@ -1580,11 +1609,11 @@
 							"name": "cylinder",
 							"origin": [0, 0, 0],
 							"color": 0,
-							"children": [84, 85]
+							"children": [86, 87]
 						},
-						86,
-						87,
 						88,
+						89,
+						90,
 						{
 							"name": "vents",
 							"origin": [0, 0, 0],
@@ -1594,25 +1623,25 @@
 									"name": "vent hold",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [89, 90, 91]
+									"children": [91, 92, 93]
 								},
 								{
 									"name": "middle cylinder vent",
 									"origin": [8, 8, 8],
 									"color": 0,
-									"children": [92, 93, 94, 95, 96, 97, 98]
+									"children": [94, 95, 96, 97, 98, 99, 100]
 								},
 								{
 									"name": "front vent",
 									"origin": [8, 8, 8],
 									"color": 0,
-									"children": [99, 100, 101, 102, 103, 104, 105]
+									"children": [101, 102, 103, 104, 105, 106, 107]
 								},
 								{
 									"name": "rear vent",
 									"origin": [8, 8, 8],
 									"color": 0,
-									"children": [106, 107, 108, 109, 110, 111, 112]
+									"children": [108, 109, 110, 111, 112, 113, 114]
 								}
 							]
 						}
@@ -1629,13 +1658,13 @@
 					"name": "left",
 					"origin": [0, 0, 0],
 					"color": 0,
-					"children": [113, 114, 115, 116, 117, 118]
+					"children": [115, 116, 117, 118, 119, 120]
 				},
 				{
 					"name": "right",
 					"origin": [0, 0, 0],
 					"color": 0,
-					"children": [119, 120, 121, 122, 123, 124]
+					"children": [121, 122, 123, 124, 125, 126]
 				}
 			]
 		},
@@ -1643,7 +1672,7 @@
 			"name": "side pipe",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [125, 126, 127]
+			"children": [127, 128, 129]
 		}
 	]
 }
