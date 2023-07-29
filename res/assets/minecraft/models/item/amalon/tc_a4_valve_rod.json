@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [256, 256],
+	"textures": {
+		"0": "item/amalon/tc_a4_skin_mallard",
+		"particle": "item/amalon/tc_a4_skin_mallard"
+	},
+	"elements": [
+		{
+			"name": "rod",
+			"from": [8, 5, -10],
+			"to": [9, 6, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 6, 8]},
+			"faces": {
+				"east": {"uv": [4.875, 0.1875, 5.375, 0.25], "texture": "#0"},
+				"west": {"uv": [4.875, 0.0625, 5.375, 0.125], "texture": "#0"},
+				"up": {"uv": [4.875, 0, 5.375, 0.0625], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [4.875, 0.125, 5.375, 0.1875], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "base",
+			"from": [7.55, 4.5, 6],
+			"to": [9.55, 6.5, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 6, 8]},
+			"faces": {
+				"north": {"uv": [4.75, 0.1875, 4.8125, 0.25], "texture": "#0"},
+				"east": {"uv": [5.375, 0.1875, 5.5, 0.25], "texture": "#0"},
+				"south": {"uv": [4.8125, 0.1875, 4.875, 0.25], "texture": "#0"},
+				"west": {"uv": [5.375, 0.0625, 5.5, 0.125], "texture": "#0"},
+				"up": {"uv": [5.375, 0, 5.5, 0.0625], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [5.375, 0.125, 5.5, 0.1875], "rotation": 270, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}
