@@ -249,8 +249,8 @@
 			}
 		},
 		{
-			"from": [-3, -6, -16],
-			"to": [19, -3, 32],
+			"from": [-11, -4, -16],
+			"to": [27, -3, 32],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -24]},
 			"faces": {
 				"north": {"uv": [0, 0.75, 0.0625, 0.8125], "texture": "#0"},
@@ -258,6 +258,18 @@
 				"south": {"uv": [0, 0.75, 0.0625, 0.8125], "texture": "#0"},
 				"west": {"uv": [0, 0.75, 0.0625, 0.8125], "texture": "#0"},
 				"up": {"uv": [0, 0.75, 0.0625, 0.8125], "texture": "#0"},
+				"down": {"uv": [0, 0.75, 0.0625, 0.8125], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-3, -6, -16],
+			"to": [19, -4, 32],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -24]},
+			"faces": {
+				"north": {"uv": [0, 0.75, 0.0625, 0.8125], "texture": "#0"},
+				"east": {"uv": [0, 0.75, 0.0625, 0.8125], "texture": "#0"},
+				"south": {"uv": [0, 0.75, 0.0625, 0.8125], "texture": "#0"},
+				"west": {"uv": [0, 0.75, 0.0625, 0.8125], "texture": "#0"},
 				"down": {"uv": [0, 0.75, 0.0625, 0.8125], "texture": "#0"}
 			}
 		},
@@ -2336,7 +2348,7 @@
 					"name": "chassis",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"children": [19]
+					"children": [19, 20]
 				},
 				{
 					"name": "left",
@@ -2348,20 +2360,20 @@
 							"origin": [0, 0, 0],
 							"color": 0,
 							"children": [
-								20,
 								21,
 								22,
+								23,
 								{
 									"name": "group",
 									"origin": [0, 0, 40],
 									"color": 0,
-									"children": [23, 24, 25, 26, 27, 28, 29]
+									"children": [24, 25, 26, 27, 28, 29, 30]
 								},
 								{
 									"name": "group",
 									"origin": [0, 0, -24],
 									"color": 0,
-									"children": [30, 31, 32, 33, 34, 35, 36]
+									"children": [31, 32, 33, 34, 35, 36, 37]
 								}
 							]
 						},
@@ -2374,38 +2386,7 @@
 									"name": "rear support",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [37, 38]
-								}
-							]
-						},
-						{
-							"name": "wheel support",
-							"origin": [8, 8, 8],
-							"color": 0,
-							"children": [
-								{
-									"name": "leaf spring",
-									"origin": [0, 0, 0],
-									"color": 0,
-									"children": [39, 40, 41, 42, 43]
-								},
-								{
-									"name": "front support",
-									"origin": [0, 0, 0],
-									"color": 0,
-									"children": [44, 45]
-								},
-								{
-									"name": "rear support",
-									"origin": [0, 0, 0],
-									"color": 0,
-									"children": [46, 47]
-								},
-								{
-									"name": "group",
-									"origin": [8, 8, 8],
-									"color": 0,
-									"children": [48, 49, 50, 51, 52, 53, 54, 55]
+									"children": [38, 39]
 								}
 							]
 						},
@@ -2418,25 +2399,56 @@
 									"name": "leaf spring",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [56, 57, 58, 59, 60]
+									"children": [40, 41, 42, 43, 44]
 								},
 								{
 									"name": "front support",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [61, 62]
+									"children": [45, 46]
 								},
 								{
 									"name": "rear support",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [63, 64]
+									"children": [47, 48]
 								},
 								{
 									"name": "group",
 									"origin": [8, 8, 8],
 									"color": 0,
-									"children": [65, 66, 67, 68, 69, 70, 71, 72]
+									"children": [49, 50, 51, 52, 53, 54, 55, 56]
+								}
+							]
+						},
+						{
+							"name": "wheel support",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "leaf spring",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [57, 58, 59, 60, 61]
+								},
+								{
+									"name": "front support",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [62, 63]
+								},
+								{
+									"name": "rear support",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [64, 65]
+								},
+								{
+									"name": "group",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"children": [66, 67, 68, 69, 70, 71, 72, 73]
 								}
 							]
 						},
@@ -2449,7 +2461,7 @@
 									"name": "rear support",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [73]
+									"children": [74]
 								}
 							]
 						}
@@ -2465,20 +2477,20 @@
 							"origin": [0, 0, 0],
 							"color": 0,
 							"children": [
-								74,
 								75,
 								76,
+								77,
 								{
 									"name": "group",
 									"origin": [0, 0, 40],
 									"color": 0,
-									"children": [77, 78, 79, 80, 81, 82, 83]
+									"children": [78, 79, 80, 81, 82, 83, 84]
 								},
 								{
 									"name": "group",
 									"origin": [0, 0, -24],
 									"color": 0,
-									"children": [84, 85, 86, 87, 88, 89, 90]
+									"children": [85, 86, 87, 88, 89, 90, 91]
 								}
 							]
 						},
@@ -2491,38 +2503,7 @@
 									"name": "rear support",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [91, 92]
-								}
-							]
-						},
-						{
-							"name": "wheel support",
-							"origin": [8, 8, 8],
-							"color": 0,
-							"children": [
-								{
-									"name": "leaf spring",
-									"origin": [0, 0, 0],
-									"color": 0,
-									"children": [93, 94, 95, 96, 97]
-								},
-								{
-									"name": "front support",
-									"origin": [0, 0, 0],
-									"color": 0,
-									"children": [98, 99]
-								},
-								{
-									"name": "rear support",
-									"origin": [0, 0, 0],
-									"color": 0,
-									"children": [100, 101]
-								},
-								{
-									"name": "group",
-									"origin": [8, 8, 8],
-									"color": 0,
-									"children": [102, 103, 104, 105, 106, 107, 108, 109]
+									"children": [92, 93]
 								}
 							]
 						},
@@ -2535,25 +2516,56 @@
 									"name": "leaf spring",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [110, 111, 112, 113, 114]
+									"children": [94, 95, 96, 97, 98]
 								},
 								{
 									"name": "front support",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [115, 116]
+									"children": [99, 100]
 								},
 								{
 									"name": "rear support",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [117, 118]
+									"children": [101, 102]
 								},
 								{
 									"name": "group",
 									"origin": [8, 8, 8],
 									"color": 0,
-									"children": [119, 120, 121, 122, 123, 124, 125, 126]
+									"children": [103, 104, 105, 106, 107, 108, 109, 110]
+								}
+							]
+						},
+						{
+							"name": "wheel support",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "leaf spring",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [111, 112, 113, 114, 115]
+								},
+								{
+									"name": "front support",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [116, 117]
+								},
+								{
+									"name": "rear support",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [118, 119]
+								},
+								{
+									"name": "group",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"children": [120, 121, 122, 123, 124, 125, 126, 127]
 								}
 							]
 						},
@@ -2566,7 +2578,7 @@
 									"name": "rear support",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [127]
+									"children": [128]
 								}
 							]
 						}
@@ -2581,7 +2593,7 @@
 							"name": "chassis",
 							"origin": [0, 0, 0],
 							"color": 0,
-							"children": [128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144]
+							"children": [129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145]
 						},
 						{
 							"name": "wheel support",
@@ -2592,7 +2604,7 @@
 									"name": "rear support",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [145, 146]
+									"children": [146, 147]
 								}
 							]
 						},
@@ -2605,25 +2617,25 @@
 									"name": "leaf spring",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [147, 148, 149, 150, 151]
+									"children": [148, 149, 150, 151, 152]
 								},
 								{
 									"name": "front support",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [152, 153]
+									"children": [153, 154]
 								},
 								{
 									"name": "rear support",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [154, 155]
+									"children": [155, 156]
 								},
 								{
 									"name": "group",
 									"origin": [8, 8, 8],
 									"color": 0,
-									"children": [156, 157, 158, 159, 160, 161, 162, 163]
+									"children": [157, 158, 159, 160, 161, 162, 163, 164]
 								}
 							]
 						},
@@ -2636,25 +2648,25 @@
 									"name": "leaf spring",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [164, 165, 166, 167, 168]
+									"children": [165, 166, 167, 168, 169]
 								},
 								{
 									"name": "front support",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [169, 170]
+									"children": [170, 171]
 								},
 								{
 									"name": "rear support",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [171, 172]
+									"children": [172, 173]
 								},
 								{
 									"name": "group",
 									"origin": [8, 8, 8],
 									"color": 0,
-									"children": [173, 174, 175, 176, 177, 178, 179, 180]
+									"children": [174, 175, 176, 177, 178, 179, 180, 181]
 								}
 							]
 						},
@@ -2667,7 +2679,7 @@
 									"name": "rear support",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"children": [181]
+									"children": [182]
 								}
 							]
 						}
