@@ -24,7 +24,7 @@ include $(wildcard $(patsubst %,$(DEPDIR)/%.d,$(basename $(YML_FILES))))
 	@mkdir -p $(dir $(DEPDIR)/$*.Td)
 	cpp $(DEPFLAGS) "$<" -o "$@"
 	@mv -f "$(DEPDIR)/$*.Td" "$(DEPDIR)/$*.d" && touch "$@"
-	@sed -i -e '/^#.*$$/d' "$@"
+	@sed -i -e '/^\s*\(#.*\)\?$$/d' "$@"
 
 clean:
 	rm -f $(RESOURCE_PACK)
