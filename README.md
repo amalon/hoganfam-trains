@@ -57,11 +57,12 @@ License
 
 The `Makefile`, and all `.yml`, `.yml.in` files in `srv/` are released under
 the [GNU General Public License, version 2].
+ - Copyright © 2022-2023 James Hogan <james@albanarts.com>
 
 In order to make shulkers completely invisible (these are used for platforms on
 which players can walk while a train is stationary):
  - `res/assets/minecraft/textures/entity/shulker/shulker.png` is included based
-   on the version in Minecraft 1.18.2, but modified to make the head made
+   on the version in Minecraft 1.18.2, but modified to make the head
    transparent.
  - `res/assets/minecraft/shaders/core/rendertype_entity_solid.fsh` is included
    from [MC-164001](https://bugs.mojang.com/browse/MC-164001) to fix shulker
@@ -72,7 +73,7 @@ Various other files in `res/` are from Minecraft:
 
 All original files in `res/**/amalon/` are released under the [Creative Commons
 Attribution-Share Alike 3.0 Unported] unless otherwise stated.
- - Copyright © 2022 James Hogan <james@albanarts.com>
+ - Copyright © 2022-2023 James Hogan <james@albanarts.com>
 
 
 Download
@@ -119,7 +120,7 @@ resource-pack=https\://github.com/amalon/hoganfam-trains/releases/download/v23.0
 resource-pack-sha1=44597c48031e1f267f0a445915838e9f9176bce5
 ```
 
-The SHA1 hash can be found using `sha1sums`:
+The SHA1 hash can be found using `sha1sum`:
 
 ```shell
 $ sha1sum hoganfam_trains_v2304a.zip
