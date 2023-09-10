@@ -185,6 +185,70 @@
                   rotZ: 0.0
                 entityType: FIREBALL
                 sitting: false
+#if ENABLE_PLATFORMS
+              5:
+                type: EMPTY
+                position:
+                  transform: head
+                  posX: 0.0
+                  posY: -1.16
+                  posZ: 0.0
+                  rotX: 0.0
+                  rotY: 0.0
+                  rotZ: 0.0
+                attachments:
+#define POS_Y 0.0
+                  0:
+#define POS_Z -1.0
+#include "platform_strip.yml.in"
+                  1:
+#define POS_Z 0.0
+#include "platform_strip.yml.in"
+#undef POS_Y
+#define POS_Y 1.0
+                  2:
+#define POS_Z 1.0
+#include "platform_strip.yml.in"
+#undef POS_Y
+                  3:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 2975
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: -2.0
+                      posY: 0.0
+                      posZ: -0.94
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: OFF
+                  4:
+                    type: PLATFORM
+                    item:
+                      ==: org.bukkit.inventory.ItemStack
+                      v: 2975
+                      type: OAK_PLANKS
+                    position:
+                      transform: head
+                      posX: 2.0
+                      posY: 0.0
+                      posZ: -0.94
+                      rotX: 0.0
+                      rotY: 0.0
+                      rotZ: 0.0
+                    displayMode: DEFAULT
+                    lockRotation: false
+                    firstPersonViewMode: DYNAMIC
+                    firstPersonViewLockMode: OFF
+                editor:
+                  expanded: false
+#endif // ENABLE_PLATFORMS
           4:
             type: ITEM
             item:
