@@ -151,6 +151,7 @@
                 custom-model-data: MODEL_DATA(A4, WHEELS_TENDER)
                 Unbreakable: true
                 Damage: MODEL_DAMAGE(A4, WHEELS_TENDER)
+#if ENABLE_SPIN_ANIM
             animations:
               movetender:
                 nodes:
@@ -163,6 +164,7 @@
                 looped: true
                 speed: 0.32
                 autoplay: true
+#endif // ENABLE_SPIN_ANIM
           4:
             type: ITEM
             position:
@@ -184,6 +186,7 @@
                 custom-model-data: MODEL_DATA(A4, WHEELS_TENDER)
                 Unbreakable: true
                 Damage: MODEL_DAMAGE(A4, WHEELS_TENDER)
+#if ENABLE_SPIN_ANIM
             animations:
               movetender:
                 nodes:
@@ -196,6 +199,7 @@
                 looped: true
                 speed: 0.32
                 autoplay: true
+#endif // ENABLE_SPIN_ANIM
           5:
             type: ITEM
             position:
@@ -217,6 +221,7 @@
                 custom-model-data: MODEL_DATA(A4, WHEELS_TENDER)
                 Unbreakable: true
                 Damage: MODEL_DAMAGE(A4, WHEELS_TENDER)
+#if ENABLE_SPIN_ANIM
             animations:
               movetender:
                 nodes:
@@ -229,6 +234,7 @@
                 looped: true
                 speed: 0.32
                 autoplay: true
+#endif // ENABLE_SPIN_ANIM
           6:
             type: ITEM
             position:
@@ -250,6 +256,7 @@
                 custom-model-data: MODEL_DATA(A4, WHEELS_TENDER)
                 Unbreakable: true
                 Damage: MODEL_DAMAGE(A4, WHEELS_TENDER)
+#if ENABLE_SPIN_ANIM
             animations:
               movetender:
                 nodes:
@@ -262,6 +269,7 @@
                 looped: true
                 speed: 0.32
                 autoplay: true
+#endif // ENABLE_SPIN_ANIM
         position:
           transform: HYBRID_ARMORSTAND_HEAD
           posX: 0.0

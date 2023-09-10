@@ -270,6 +270,7 @@
               rotY: 0.0
               rotZ: 0.0
               anchor: default
+#if ENABLE_SPIN_ANIM
             animations:
               move:
                 nodes:
@@ -282,6 +283,7 @@
                 looped: true
                 speed: 0.2
                 autoplay: true
+#endif // ENABLE_SPIN_ANIM
           5:
             type: ITEM
             item:
@@ -303,6 +305,7 @@
               rotY: 0.0
               rotZ: 0.0
               anchor: default
+#if ENABLE_SPIN_ANIM
             animations:
               move:
                 nodes:
@@ -319,6 +322,7 @@
                 looped: true
                 speed: 0.19999999999999998
                 autoplay: true
+#endif // ENABLE_SPIN_ANIM
           6:
             type: ITEM
             item:
@@ -340,6 +344,7 @@
               rotY: 0.0
               rotZ: 0.0
               anchor: default
+#if ENABLE_SPIN_ANIM
             animations:
               move:
                 nodes:
@@ -352,6 +357,7 @@
                 looped: true
                 autoplay: true
                 speed: 0.19999999999999998
+#endif // ENABLE_SPIN_ANIM
           7:
             type: ITEM
             item:

@@ -64,6 +64,7 @@
                 custom-model-data: MODEL_DATA(A4, WHEELS_LEADER)
                 Unbreakable: true
                 Damage: MODEL_DAMAGE(A4, WHEELS_LEADER)
+#if ENABLE_SPIN_ANIM
             animations:
               moveleader:
                 nodes:
@@ -76,6 +77,7 @@
                 looped: true
                 speed: 0.421
                 autoplay: true
+#endif // ENABLE_SPIN_ANIM
           2:
             type: ITEM
             position:
@@ -97,6 +99,7 @@
                 custom-model-data: MODEL_DATA(A4, WHEELS_LEADER)
                 Unbreakable: true
                 Damage: MODEL_DAMAGE(A4, WHEELS_LEADER)
+#if ENABLE_SPIN_ANIM
             animations:
               moveleader:
                 nodes:
@@ -109,5 +112,6 @@
                 looped: true
                 speed: 0.421
                 autoplay: true
+#endif // ENABLE_SPIN_ANIM
       entityType: MINECART
       flipped: false

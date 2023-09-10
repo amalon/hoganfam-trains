@@ -54,6 +54,7 @@
                 custom-model-data: MODEL_DATA(A4, WHEELS_TRAILER)
                 Unbreakable: true
                 Damage: MODEL_DAMAGE(A4, WHEELS_TRAILER)
+#if ENABLE_SPIN_ANIM
             animations:
               movetrailer:
                 nodes:
@@ -66,6 +67,7 @@
                 looped: true
                 speed: 0.3636
                 autoplay: true
+#endif // ENABLE_SPIN_ANIM
       exitOffset:
         ==: Vector
         x: 0.0
