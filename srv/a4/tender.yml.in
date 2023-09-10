@@ -245,13 +245,13 @@
           transform: HYBRID_ARMORSTAND_HEAD
           posX: 0.0
           posY: 0.0
-          posZ: -0.09999999999999999
+          posZ: 0.1
           rotX: 0.0
           rotY: 0.0
           rotZ: 0.0
         physical:
           cartLength: 7.6
-          wheelCenter: 0.049999999999999996
+          wheelCenter: 0.05
           wheelDistance: 4.88
       exitOffset:
         ==: Vector
