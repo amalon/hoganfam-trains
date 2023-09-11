@@ -46,6 +46,10 @@
 		}
 	],
 	"display": {
+		"gui": {
+			"rotation": [45, 45, 0],
+			"translation": [-7.5, 6.75, 0]
+		},
 		"head": {
 			"scale": [4, 4, 4]
 		}

@@ -1306,6 +1306,11 @@
 		"thirdperson_righthand": {
 			"rotation": [0, -180, 0]
 		},
+		"gui": {
+			"rotation": [25, 135, 0],
+			"translation": [0.5, -0.75, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
 		"head": {
 			"scale": [2, 2, 2]
 		}
