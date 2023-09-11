@@ -36,7 +36,7 @@
           1:
             type: ITEM
             position:
-              transform: HYBRID_ARMORSTAND_HEAD
+              transform: HYBRID_DISPLAY_HEAD
               posX: 0.0
               posY: 0.61
               posZ: -0.81

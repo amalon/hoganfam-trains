@@ -262,7 +262,7 @@
                 Unbreakable: true
                 Damage: MODEL_DAMAGE(A4, WHEELS_POWER)
             position:
-              transform: HEAD
+              transform: HYBRID_DISPLAY_HEAD
               posX: 0.0
               posY: 1.08
               posZ: 0.36
@@ -297,7 +297,7 @@
                 Unbreakable: true
                 Damage: MODEL_DAMAGE(A4, WHEELS_DRIVEN)
             position:
-              transform: HEAD
+              transform: HYBRID_DISPLAY_HEAD
               posX: 0.0
               posY: 1.08
               posZ: -1.85
@@ -336,7 +336,7 @@
                 Unbreakable: true
                 Damage: MODEL_DAMAGE(A4, WHEELS_POWER)
             position:
-              transform: HEAD
+              transform: HYBRID_DISPLAY_HEAD
               posX: 0.0
               posY: 1.08
               posZ: -4.06

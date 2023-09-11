@@ -133,7 +133,7 @@
           3:
             type: ITEM
             position:
-              transform: HYBRID_ARMORSTAND_HEAD
+              transform: HYBRID_DISPLAY_HEAD
               posX: 0.0
               posY: 0.64
               posZ: 2.49
@@ -168,7 +168,7 @@
           4:
             type: ITEM
             position:
-              transform: HYBRID_ARMORSTAND_HEAD
+              transform: HYBRID_DISPLAY_HEAD
               posX: 0.0
               posY: 0.64
               posZ: 0.82
@@ -203,7 +203,7 @@
           5:
             type: ITEM
             position:
-              transform: HYBRID_ARMORSTAND_HEAD
+              transform: HYBRID_DISPLAY_HEAD
               posX: 0.0
               posY: 0.64
               posZ: -0.92
@@ -238,7 +238,7 @@
           6:
             type: ITEM
             position:
-              transform: HYBRID_ARMORSTAND_HEAD
+              transform: HYBRID_DISPLAY_HEAD
               posX: 0.0
               posY: 0.64
               posZ: -2.46
