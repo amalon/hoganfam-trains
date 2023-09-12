@@ -44,14 +44,14 @@
                 position:
                   transform: head
                   posX: 0.0
-                  posY: -1.16
+                  posY: -1.41
                   posZ: 0.0
                   rotX: 0.0
                   rotY: 0.0
                   rotZ: 0.0
                 attachments:
                   0:
-#define POS_Y 1.0
+#define POS_Y 1.5
 #define POS_Z -1.0
 #include "platform_strip.yml.in"
 #undef POS_Y
