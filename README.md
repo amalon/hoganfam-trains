@@ -117,7 +117,7 @@ following in your `server.properties` file:
 
 ```
 resource-pack=https\://github.com/amalon/hoganfam-trains/releases/download/v23.09.b/hoganfam_trains_v2309b.zip
-resource-pack-sha1=af178fc6890b70a40528b096c486506dab9ca106
+resource-pack-sha1=bb9d680c73db997638793eb691ad8cfc199d6c57
 ```
 
 The SHA1 hash can be found using `sha1sum`:
