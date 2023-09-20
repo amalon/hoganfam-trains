@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/amalon/tc_metro_seats",
-		"particle": "item/amalon/tc_metro_seats"
+		"0": "item/amalon/tc/metro/seats",
+		"particle": "item/amalon/tc/metro/seats"
 	},
 	"elements": [
 		{

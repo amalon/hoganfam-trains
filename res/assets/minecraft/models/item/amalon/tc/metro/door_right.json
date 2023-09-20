@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "item/amalon/tc_metro_doors"
+		"1": "item/amalon/tc/metro/doors"
 	},
 	"elements": [
 		{

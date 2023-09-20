@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [256, 256],
 	"textures": {
-		"particle": "item/amalon/tc_a4_skin_mallard"
+		"particle": "item/amalon/tc/a4/skin_mallard"
 	},
 	"elements": [
 		{

@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "item/amalon/tc_c158_base",
-		"particle": "item/amalon/tc_c158_base"
+		"1": "item/amalon/tc/c158/base",
+		"particle": "item/amalon/tc/c158/base"
 	},
 	"elements": [
 		{
