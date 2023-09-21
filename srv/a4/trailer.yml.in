@@ -26,13 +26,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, TRAILER)
+              type: MODEL_ITEM(A4_SKIN, TRAILER)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, TRAILER)
+                custom-model-data: MODEL_DATA(A4_SKIN, TRAILER)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, TRAILER)
+                Damage: MODEL_DAMAGE(A4_SKIN, TRAILER)
           1:
             type: ITEM
             position:
@@ -47,13 +47,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, WHEELS_TRAILER)
+              type: MODEL_ITEM(A4_SKIN, WHEELS_TRAILER)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, WHEELS_TRAILER)
+                custom-model-data: MODEL_DATA(A4_SKIN, WHEELS_TRAILER)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, WHEELS_TRAILER)
+                Damage: MODEL_DAMAGE(A4_SKIN, WHEELS_TRAILER)
 #if ENABLE_SPIN_ANIM
             animations:
               movetrailer:

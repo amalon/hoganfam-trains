@@ -15,13 +15,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, LOCO_BODY1)
+              type: MODEL_ITEM(A4_SKIN, LOCO_BODY1)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, LOCO_BODY1)
+                custom-model-data: MODEL_DATA(A4_SKIN, LOCO_BODY1)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, LOCO_BODY1)
+                Damage: MODEL_DAMAGE(A4_SKIN, LOCO_BODY1)
             attachments:
               0:
                 type: ENTITY
@@ -49,13 +49,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, LOCO_BODY2)
+              type: MODEL_ITEM(A4_SKIN, LOCO_BODY2)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, LOCO_BODY2)
+                custom-model-data: MODEL_DATA(A4_SKIN, LOCO_BODY2)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, LOCO_BODY2)
+                Damage: MODEL_DAMAGE(A4_SKIN, LOCO_BODY2)
           2:
             type: ITEM
             position:
@@ -70,25 +70,25 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, LOCO_BODY3)
+              type: MODEL_ITEM(A4_SKIN, LOCO_BODY3)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, LOCO_BODY3)
+                custom-model-data: MODEL_DATA(A4_SKIN, LOCO_BODY3)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, LOCO_BODY3)
+                Damage: MODEL_DAMAGE(A4_SKIN, LOCO_BODY3)
           3:
             type: ITEM
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, LOCO_BODY4)
+              type: MODEL_ITEM(A4_SKIN, LOCO_BODY4)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, LOCO_BODY4)
+                custom-model-data: MODEL_DATA(A4_SKIN, LOCO_BODY4)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, LOCO_BODY4)
+                Damage: MODEL_DAMAGE(A4_SKIN, LOCO_BODY4)
             position:
               transform: HEAD
               posX: 0.0
@@ -254,13 +254,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, WHEELS_POWER)
+              type: MODEL_ITEM(A4_SKIN, WHEELS_POWER)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, WHEELS_POWER)
+                custom-model-data: MODEL_DATA(A4_SKIN, WHEELS_POWER)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, WHEELS_POWER)
+                Damage: MODEL_DAMAGE(A4_SKIN, WHEELS_POWER)
             position:
               transform: HYBRID_DISPLAY_HEAD
               posX: 0.0
@@ -289,13 +289,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, WHEELS_DRIVEN)
+              type: MODEL_ITEM(A4_SKIN, WHEELS_DRIVEN)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, WHEELS_DRIVEN)
+                custom-model-data: MODEL_DATA(A4_SKIN, WHEELS_DRIVEN)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, WHEELS_DRIVEN)
+                Damage: MODEL_DAMAGE(A4_SKIN, WHEELS_DRIVEN)
             position:
               transform: HYBRID_DISPLAY_HEAD
               posX: 0.0
@@ -328,13 +328,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, WHEELS_POWER)
+              type: MODEL_ITEM(A4_SKIN, WHEELS_POWER)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, WHEELS_POWER)
+                custom-model-data: MODEL_DATA(A4_SKIN, WHEELS_POWER)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, WHEELS_POWER)
+                Damage: MODEL_DAMAGE(A4_SKIN, WHEELS_POWER)
             position:
               transform: HYBRID_DISPLAY_HEAD
               posX: 0.0
@@ -363,13 +363,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, COUPLING_ROD)
+              type: MODEL_ITEM(A4_SKIN, COUPLING_ROD)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, COUPLING_ROD)
+                custom-model-data: MODEL_DATA(A4_SKIN, COUPLING_ROD)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, COUPLING_ROD)
+                Damage: MODEL_DAMAGE(A4_SKIN, COUPLING_ROD)
             position:
               transform: HEAD
               posX: 0.8
@@ -400,13 +400,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, COUPLING_ROD)
+              type: MODEL_ITEM(A4_SKIN, COUPLING_ROD)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, COUPLING_ROD)
+                custom-model-data: MODEL_DATA(A4_SKIN, COUPLING_ROD)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, COUPLING_ROD)
+                Damage: MODEL_DAMAGE(A4_SKIN, COUPLING_ROD)
             position:
               transform: HEAD
               posX: -0.8
@@ -437,13 +437,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, PISTON_ROD)
+              type: MODEL_ITEM(A4_SKIN, PISTON_ROD)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, PISTON_ROD)
+                custom-model-data: MODEL_DATA(A4_SKIN, PISTON_ROD)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, PISTON_ROD)
+                Damage: MODEL_DAMAGE(A4_SKIN, PISTON_ROD)
             position:
               transform: HEAD
               posX: 0.98
@@ -475,13 +475,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3465
-                  type: MODEL_ITEM(A4, CONNECTING_ROD)
+                  type: MODEL_ITEM(A4_SKIN, CONNECTING_ROD)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
-                    custom-model-data: MODEL_DATA(A4, CONNECTING_ROD)
+                    custom-model-data: MODEL_DATA(A4_SKIN, CONNECTING_ROD)
                     Unbreakable: true
-                    Damage: MODEL_DAMAGE(A4, CONNECTING_ROD)
+                    Damage: MODEL_DAMAGE(A4_SKIN, CONNECTING_ROD)
                 position:
                   transform: HEAD
                   posX: 0.0
@@ -512,13 +512,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, CONNECTING_ROD)
+              type: MODEL_ITEM(A4_SKIN, CONNECTING_ROD)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, CONNECTING_ROD)
+                custom-model-data: MODEL_DATA(A4_SKIN, CONNECTING_ROD)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, CONNECTING_ROD)
+                Damage: MODEL_DAMAGE(A4_SKIN, CONNECTING_ROD)
             position:
               transform: HEAD
               posX: -0.9
@@ -549,13 +549,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, ECCENTRIC_ROD)
+              type: MODEL_ITEM(A4_SKIN, ECCENTRIC_ROD)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, ECCENTRIC_ROD)
+                custom-model-data: MODEL_DATA(A4_SKIN, ECCENTRIC_ROD)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, ECCENTRIC_ROD)
+                Damage: MODEL_DAMAGE(A4_SKIN, ECCENTRIC_ROD)
             position:
               transform: HEAD
               posX: 1.15
@@ -586,13 +586,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, EXPANSION_LINK)
+              type: MODEL_ITEM(A4_SKIN, EXPANSION_LINK)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, EXPANSION_LINK)
+                custom-model-data: MODEL_DATA(A4_SKIN, EXPANSION_LINK)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, EXPANSION_LINK)
+                Damage: MODEL_DAMAGE(A4_SKIN, EXPANSION_LINK)
             position:
               transform: HEAD
               posX: 1.22
@@ -623,13 +623,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, VALVE_ROD)
+              type: MODEL_ITEM(A4_SKIN, VALVE_ROD)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, VALVE_ROD)
+                custom-model-data: MODEL_DATA(A4_SKIN, VALVE_ROD)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, VALVE_ROD)
+                Damage: MODEL_DAMAGE(A4_SKIN, VALVE_ROD)
             position:
               transform: HEAD
               posX: 0.98
@@ -660,13 +660,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, COMBINATION_LEVER)
+              type: MODEL_ITEM(A4_SKIN, COMBINATION_LEVER)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, COMBINATION_LEVER)
+                custom-model-data: MODEL_DATA(A4_SKIN, COMBINATION_LEVER)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, COMBINATION_LEVER)
+                Damage: MODEL_DAMAGE(A4_SKIN, COMBINATION_LEVER)
             position:
               transform: HEAD
               posX: 0.98
@@ -697,13 +697,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, EXTENSION_ROD)
+              type: MODEL_ITEM(A4_SKIN, EXTENSION_ROD)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, EXTENSION_ROD)
+                custom-model-data: MODEL_DATA(A4_SKIN, EXTENSION_ROD)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, EXTENSION_ROD)
+                Damage: MODEL_DAMAGE(A4_SKIN, EXTENSION_ROD)
             position:
               transform: HEAD
               posX: 0.0

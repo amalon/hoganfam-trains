@@ -6,13 +6,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, TENDER_BODY1)
+              type: MODEL_ITEM(A4_SKIN, TENDER_BODY1)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, TENDER_BODY1)
+                custom-model-data: MODEL_DATA(A4_SKIN, TENDER_BODY1)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, TENDER_BODY1)
+                Damage: MODEL_DAMAGE(A4_SKIN, TENDER_BODY1)
             position:
               transform: HYBRID_ARMORSTAND_HEAD
               posX: 0.0
@@ -63,13 +63,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, TENDER_BODY2)
+              type: MODEL_ITEM(A4_SKIN, TENDER_BODY2)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, TENDER_BODY2)
+                custom-model-data: MODEL_DATA(A4_SKIN, TENDER_BODY2)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, TENDER_BODY2)
+                Damage: MODEL_DAMAGE(A4_SKIN, TENDER_BODY2)
             position:
               transform: HYBRID_ARMORSTAND_HEAD
               posX: 0.0
@@ -123,13 +123,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, TENDER_BODY3)
+              type: MODEL_ITEM(A4_SKIN, TENDER_BODY3)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, TENDER_BODY3)
+                custom-model-data: MODEL_DATA(A4_SKIN, TENDER_BODY3)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, TENDER_BODY3)
+                Damage: MODEL_DAMAGE(A4_SKIN, TENDER_BODY3)
           3:
             type: ITEM
             position:
@@ -144,13 +144,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, WHEELS_TENDER)
+              type: MODEL_ITEM(A4_SKIN, WHEELS_TENDER)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, WHEELS_TENDER)
+                custom-model-data: MODEL_DATA(A4_SKIN, WHEELS_TENDER)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, WHEELS_TENDER)
+                Damage: MODEL_DAMAGE(A4_SKIN, WHEELS_TENDER)
 #if ENABLE_SPIN_ANIM
             animations:
               movetender:
@@ -179,13 +179,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, WHEELS_TENDER)
+              type: MODEL_ITEM(A4_SKIN, WHEELS_TENDER)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, WHEELS_TENDER)
+                custom-model-data: MODEL_DATA(A4_SKIN, WHEELS_TENDER)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, WHEELS_TENDER)
+                Damage: MODEL_DAMAGE(A4_SKIN, WHEELS_TENDER)
 #if ENABLE_SPIN_ANIM
             animations:
               movetender:
@@ -214,13 +214,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, WHEELS_TENDER)
+              type: MODEL_ITEM(A4_SKIN, WHEELS_TENDER)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, WHEELS_TENDER)
+                custom-model-data: MODEL_DATA(A4_SKIN, WHEELS_TENDER)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, WHEELS_TENDER)
+                Damage: MODEL_DAMAGE(A4_SKIN, WHEELS_TENDER)
 #if ENABLE_SPIN_ANIM
             animations:
               movetender:
@@ -249,13 +249,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, WHEELS_TENDER)
+              type: MODEL_ITEM(A4_SKIN, WHEELS_TENDER)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, WHEELS_TENDER)
+                custom-model-data: MODEL_DATA(A4_SKIN, WHEELS_TENDER)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, WHEELS_TENDER)
+                Damage: MODEL_DAMAGE(A4_SKIN, WHEELS_TENDER)
 #if ENABLE_SPIN_ANIM
             animations:
               movetender:

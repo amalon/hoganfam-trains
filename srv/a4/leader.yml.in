@@ -36,13 +36,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, LEADER)
+              type: MODEL_ITEM(A4_SKIN, LEADER)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, LEADER)
+                custom-model-data: MODEL_DATA(A4_SKIN, LEADER)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, LEADER)
+                Damage: MODEL_DAMAGE(A4_SKIN, LEADER)
           1:
             type: ITEM
             position:
@@ -57,13 +57,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, WHEELS_LEADER)
+              type: MODEL_ITEM(A4_SKIN, WHEELS_LEADER)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, WHEELS_LEADER)
+                custom-model-data: MODEL_DATA(A4_SKIN, WHEELS_LEADER)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, WHEELS_LEADER)
+                Damage: MODEL_DAMAGE(A4_SKIN, WHEELS_LEADER)
 #if ENABLE_SPIN_ANIM
             animations:
               moveleader:
@@ -92,13 +92,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3465
-              type: MODEL_ITEM(A4, WHEELS_LEADER)
+              type: MODEL_ITEM(A4_SKIN, WHEELS_LEADER)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(A4, WHEELS_LEADER)
+                custom-model-data: MODEL_DATA(A4_SKIN, WHEELS_LEADER)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(A4, WHEELS_LEADER)
+                Damage: MODEL_DAMAGE(A4_SKIN, WHEELS_LEADER)
 #if ENABLE_SPIN_ANIM
             animations:
               moveleader:
