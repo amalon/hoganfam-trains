@@ -1,7 +1,6 @@
-#include "parts.yml.in"
-class158:
+TRAIN_NAME:
   name: class158
-  savedName: class158
+  savedName: TRAIN_NAME
   allowManualMovement: true
   wait:
     distance: 200.0
@@ -40,3 +39,5 @@ class158:
     5:
 #include "bogie.yml.in"
       flipped: true
+#undef TRAIN_C158_SKIN
+#undef TRAIN_NAME

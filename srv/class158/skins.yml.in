@@ -1,0 +1,5 @@
+#include "parts.yml.in"
+
+#define TRAIN_C158_SKIN		TRAIN_C158
+#define TRAIN_NAME		class158
+#include "class158.yml.in"

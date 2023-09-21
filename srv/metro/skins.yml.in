@@ -1,0 +1,5 @@
+#include "parts.yml.in"
+
+#define TRAIN_METRO_SKIN	TRAIN_METRO
+#define TRAIN_NAME		metro
+#include "metro.yml.in"

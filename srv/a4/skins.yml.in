@@ -1,0 +1,5 @@
+#include "parts.yml.in"
+
+#define TRAIN_A4_SKIN		TRAIN_A4
+#define TRAIN_NAME		a4
+#include "a4.yml.in"

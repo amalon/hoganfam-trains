@@ -1,7 +1,6 @@
-#include "parts.yml.in"
-a4:
+TRAIN_NAME:
   name: a4
-  savedName: a4
+  savedName: TRAIN_NAME
   allowManualMovement: true
   wait:
     distance: 200.0
@@ -26,3 +25,5 @@ a4:
 #include "trailer.yml.in"
     3:
 #include "tender.yml.in"
+#undef TRAIN_A4_SKIN
+#undef TRAIN_NAME

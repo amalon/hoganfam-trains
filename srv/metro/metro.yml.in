@@ -1,7 +1,6 @@
-#include "parts.yml.in"
-metro:
+TRAIN_NAME:
   name: metro
-  savedName: metro
+  savedName: TRAIN_NAME
   wait:
     distance: 100.0
     delay: 10.0
@@ -39,3 +38,5 @@ metro:
     5:
 #include "bogie.yml.in"
       flipped: true
+#undef TRAIN_METRO_SKIN
+#undef TRAIN_NAME

@@ -18,6 +18,6 @@
 
 // Saved train configurations
 
-#include "class158/class158.yml.in"
-#include "metro/metro.yml.in"
-#include "a4/a4.yml.in"
+#include "class158/skins.yml.in"
+#include "metro/skins.yml.in"
+#include "a4/skins.yml.in"
