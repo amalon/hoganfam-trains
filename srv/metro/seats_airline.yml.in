@@ -10,13 +10,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: MODEL_ITEM(METRO, SEATS_AIRLINE)
+                  type: MODEL_ITEM(METRO_SKIN, SEATS_AIRLINE)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
-                    custom-model-data: MODEL_DATA(METRO, SEATS_AIRLINE)
+                    custom-model-data: MODEL_DATA(METRO_SKIN, SEATS_AIRLINE)
                     Unbreakable: true
-                    Damage: MODEL_DAMAGE(METRO, SEATS_AIRLINE)
+                    Damage: MODEL_DAMAGE(METRO_SKIN, SEATS_AIRLINE)
                 entityType: MINECART
                 sitting: false
 #if ENABLE_SEATS

@@ -38,13 +38,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3105
-              type: MODEL_ITEM(METRO, BODY_FRONT)
+              type: MODEL_ITEM(METRO_SKIN, BODY_FRONT)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(METRO, BODY_FRONT)
+                custom-model-data: MODEL_DATA(METRO_SKIN, BODY_FRONT)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(METRO, BODY_FRONT)
+                Damage: MODEL_DAMAGE(METRO_SKIN, BODY_FRONT)
             entityType: MINECART
             sitting: false
             attachments:
@@ -85,13 +85,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3105
-              type: MODEL_ITEM(METRO, BODY_2)
+              type: MODEL_ITEM(METRO_SKIN, BODY_2)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(METRO, BODY_2)
+                custom-model-data: MODEL_DATA(METRO_SKIN, BODY_2)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(METRO, BODY_2)
+                Damage: MODEL_DAMAGE(METRO_SKIN, BODY_2)
             entityType: MINECART
             sitting: false
             attachments:
@@ -146,13 +146,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: MODEL_ITEM(METRO, DOOR_LEFT)
+                  type: MODEL_ITEM(METRO_SKIN, DOOR_LEFT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
-                    custom-model-data: MODEL_DATA(METRO, DOOR_LEFT)
+                    custom-model-data: MODEL_DATA(METRO_SKIN, DOOR_LEFT)
                     Unbreakable: true
-                    Damage: MODEL_DAMAGE(METRO, DOOR_LEFT)
+                    Damage: MODEL_DAMAGE(METRO_SKIN, DOOR_LEFT)
                 animations:
                   DOOR_ANIM_1:
 #include "door_left_anim.yml.in"
@@ -169,13 +169,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: MODEL_ITEM(METRO, DOOR_RIGHT)
+                  type: MODEL_ITEM(METRO_SKIN, DOOR_RIGHT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
-                    custom-model-data: MODEL_DATA(METRO, DOOR_RIGHT)
+                    custom-model-data: MODEL_DATA(METRO_SKIN, DOOR_RIGHT)
                     Unbreakable: true
-                    Damage: MODEL_DAMAGE(METRO, DOOR_RIGHT)
+                    Damage: MODEL_DAMAGE(METRO_SKIN, DOOR_RIGHT)
                 animations:
                   DOOR_ANIM_1:
 #include "door_right_anim.yml.in"
@@ -192,13 +192,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: MODEL_ITEM(METRO, DOOR_LEFT)
+                  type: MODEL_ITEM(METRO_SKIN, DOOR_LEFT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
-                    custom-model-data: MODEL_DATA(METRO, DOOR_LEFT)
+                    custom-model-data: MODEL_DATA(METRO_SKIN, DOOR_LEFT)
                     Unbreakable: true
-                    Damage: MODEL_DAMAGE(METRO, DOOR_LEFT)
+                    Damage: MODEL_DAMAGE(METRO_SKIN, DOOR_LEFT)
                 animations:
                   DOOR_ANIM_2:
 #include "door_left_anim.yml.in"
@@ -215,13 +215,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: MODEL_ITEM(METRO, DOOR_RIGHT)
+                  type: MODEL_ITEM(METRO_SKIN, DOOR_RIGHT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
-                    custom-model-data: MODEL_DATA(METRO, DOOR_RIGHT)
+                    custom-model-data: MODEL_DATA(METRO_SKIN, DOOR_RIGHT)
                     Unbreakable: true
-                    Damage: MODEL_DAMAGE(METRO, DOOR_RIGHT)
+                    Damage: MODEL_DAMAGE(METRO_SKIN, DOOR_RIGHT)
                 animations:
                   DOOR_ANIM_2:
 #include "door_right_anim.yml.in"
@@ -258,13 +258,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3105
-              type: MODEL_ITEM(METRO, BODY_3)
+              type: MODEL_ITEM(METRO_SKIN, BODY_3)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(METRO, BODY_3)
+                custom-model-data: MODEL_DATA(METRO_SKIN, BODY_3)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(METRO, BODY_3)
+                Damage: MODEL_DAMAGE(METRO_SKIN, BODY_3)
             entityType: MINECART
             sitting: false
             attachments:
@@ -307,13 +307,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3105
-              type: MODEL_ITEM(METRO, BODY_2)
+              type: MODEL_ITEM(METRO_SKIN, BODY_2)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(METRO, BODY_2)
+                custom-model-data: MODEL_DATA(METRO_SKIN, BODY_2)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(METRO, BODY_2)
+                Damage: MODEL_DAMAGE(METRO_SKIN, BODY_2)
             entityType: MINECART
             sitting: false
             attachments:
@@ -368,13 +368,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: MODEL_ITEM(METRO, DOOR_LEFT)
+                  type: MODEL_ITEM(METRO_SKIN, DOOR_LEFT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
-                    custom-model-data: MODEL_DATA(METRO, DOOR_LEFT)
+                    custom-model-data: MODEL_DATA(METRO_SKIN, DOOR_LEFT)
                     Unbreakable: true
-                    Damage: MODEL_DAMAGE(METRO, DOOR_LEFT)
+                    Damage: MODEL_DAMAGE(METRO_SKIN, DOOR_LEFT)
                 animations:
                   DOOR_ANIM_2:
 #include "door_left_anim.yml.in"
@@ -391,13 +391,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: MODEL_ITEM(METRO, DOOR_RIGHT)
+                  type: MODEL_ITEM(METRO_SKIN, DOOR_RIGHT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
-                    custom-model-data: MODEL_DATA(METRO, DOOR_RIGHT)
+                    custom-model-data: MODEL_DATA(METRO_SKIN, DOOR_RIGHT)
                     Unbreakable: true
-                    Damage: MODEL_DAMAGE(METRO, DOOR_RIGHT)
+                    Damage: MODEL_DAMAGE(METRO_SKIN, DOOR_RIGHT)
                 animations:
                   DOOR_ANIM_2:
 #include "door_right_anim.yml.in"
@@ -414,13 +414,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: MODEL_ITEM(METRO, DOOR_LEFT)
+                  type: MODEL_ITEM(METRO_SKIN, DOOR_LEFT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
-                    custom-model-data: MODEL_DATA(METRO, DOOR_LEFT)
+                    custom-model-data: MODEL_DATA(METRO_SKIN, DOOR_LEFT)
                     Unbreakable: true
-                    Damage: MODEL_DAMAGE(METRO, DOOR_LEFT)
+                    Damage: MODEL_DAMAGE(METRO_SKIN, DOOR_LEFT)
                 animations:
                   DOOR_ANIM_1:
 #include "door_left_anim.yml.in"
@@ -437,13 +437,13 @@
                 item:
                   ==: org.bukkit.inventory.ItemStack
                   v: 3105
-                  type: MODEL_ITEM(METRO, DOOR_RIGHT)
+                  type: MODEL_ITEM(METRO_SKIN, DOOR_RIGHT)
                   meta:
                     ==: ItemMeta
                     meta-type: UNSPECIFIC
-                    custom-model-data: MODEL_DATA(METRO, DOOR_RIGHT)
+                    custom-model-data: MODEL_DATA(METRO_SKIN, DOOR_RIGHT)
                     Unbreakable: true
-                    Damage: MODEL_DAMAGE(METRO, DOOR_RIGHT)
+                    Damage: MODEL_DAMAGE(METRO_SKIN, DOOR_RIGHT)
                 animations:
                   DOOR_ANIM_1:
 #include "door_right_anim.yml.in"
@@ -480,13 +480,13 @@
             item:
               ==: org.bukkit.inventory.ItemStack
               v: 3105
-              type: MODEL_ITEM(METRO, BODY_BACK)
+              type: MODEL_ITEM(METRO_SKIN, BODY_BACK)
               meta:
                 ==: ItemMeta
                 meta-type: UNSPECIFIC
-                custom-model-data: MODEL_DATA(METRO, BODY_BACK)
+                custom-model-data: MODEL_DATA(METRO_SKIN, BODY_BACK)
                 Unbreakable: true
-                Damage: MODEL_DAMAGE(METRO, BODY_BACK)
+                Damage: MODEL_DAMAGE(METRO_SKIN, BODY_BACK)
             entityType: MINECART
             sitting: false
             attachments:
