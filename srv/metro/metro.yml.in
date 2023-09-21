@@ -12,7 +12,7 @@ TRAIN_NAME:
     players: CANCEL
     misc: PUSH
     train: LINK
-    block: DEFAULT
+    block: CANCEL
   slowDown: false
   keepChunksLoaded: true
   carts:
