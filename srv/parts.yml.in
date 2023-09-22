@@ -12,6 +12,6 @@
 #define MODEL_DAMAGE_DEFAULT	32
 
 // Train types
-#define TRAIN_C158	1
-#define TRAIN_METRO	2
-#define TRAIN_A4	3
+#define TRAIN_C158		10
+#define TRAIN_METRO		20
+#define TRAIN_A4		30
