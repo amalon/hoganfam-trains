@@ -2,6 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "item/amalon/tc/metro/skin3",
+		"1": "item/amalon/tc/metro/branding",
 		"particle": "item/amalon/tc/metro/skin3"
 	},
 	"elements": [
@@ -12,7 +13,7 @@
 				"north": {"uv": [0.25, 0.25, 0.75, 0.75], "texture": "#0"},
 				"east": {"uv": [1.25, 0.25, 1.75, 0.75], "texture": "#0"},
 				"south": {"uv": [2.25, 0.25, 2.75, 0.75], "texture": "#0"},
-				"west": {"uv": [3.25, 0.25, 3.75, 0.75], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 5.5], "texture": "#1"},
 				"up": {"uv": [4.25, 0.25, 4.75, 0.75], "texture": "#0"},
 				"down": {"uv": [5.25, 0.25, 5.75, 0.75], "texture": "#0"}
 			}
@@ -22,7 +23,7 @@
 			"to": [32, 12, 32],
 			"faces": {
 				"north": {"uv": [6.25, 0.25, 6.75, 0.75], "texture": "#0"},
-				"east": {"uv": [7.25, 0.25, 7.75, 0.75], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 5.5], "texture": "#1"},
 				"south": {"uv": [8.25, 0.25, 8.75, 0.75], "texture": "#0"},
 				"west": {"uv": [9.25, 0.25, 9.75, 0.75], "texture": "#0"},
 				"up": {"uv": [10.25, 0.25, 10.75, 0.75], "texture": "#0"},
