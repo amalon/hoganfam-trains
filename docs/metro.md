@@ -3,10 +3,35 @@ Metro (Inspired by DLR B07)
 
 ![Screenshot](./metro.jpg)
 
-To-do list
-----------
+A metro train inspired by the B07 DLR train.
 
- - [x] Seat models
+Variants
+--------
+
+This train comes in the following variants:
+
+Train ID       | Description                               | Screenshot
+---------------|-------------------------------------------|------------
+`metro`        | Standard blue and white livery            | ![metro](./metro_thumb.jpg)
+`metro_red`    | Red stripe along top, red poles           | ![metro](./metro_red_thumb.jpg)
+`metro_yellow` | Yellow stripe along top, yellow poles     | ![metro](./metro_yellow_thumb.jpg)
+
+
+Customization
+-------------
+
+A custom logo or train line name can be placed on the sides and ends of the
+trains by editing the following textures in the resource pack:
+ - `metro`: `assets/minecraft/textures/item/amalon/tc/metro/branding.png`
+ - `metro_red`: `assets/minecraft/textures/item/amalon/tc/metro/red/branding.png`
+ - `metro_yellow`: `assets/minecraft/textures/item/amalon/tc/metro/yel/branding.png`
+
+The original resource pack files are found in the `res/` directory of the git
+repository.
+
+The upper white part of the texture is mapped onto the middle of both sides of
+the train.
+The lower yellow part of the texture is mapped onto the ends of the train.
 
 
 Stations

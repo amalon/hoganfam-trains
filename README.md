@@ -36,7 +36,7 @@ The following trains are provided:
 Train ID    | Name                                      | Status        | Screenshot
 ------------|-------------------------------------------|---------------|------------
 [class158]  | British Rail Class 158 Express Sprinter   | Beta          | ![class158](docs/class158_thumb.jpg)
-[metro]     | Metro train inspired by B07 DLR train     | Beta          | ![metro](docs/metro_thumb.jpg)
+[metro]<br/>metro\_red<br/>metro\_yellow | Metro train inspired by B07 DLR train     | Beta          | ![metro](docs/metro_thumb.jpg)
 [a4]        | LNER Class A4 (4468 Mallard)              | Beta          | ![a4](docs/a4_thumb.jpg)
 
 [class158]: ./docs/class158.md
