@@ -13,6 +13,7 @@
 
 // Train types
 #define TRAIN_C158		10
+#define TRAIN_C158_GWR		11
 #define TRAIN_METRO		20
 #define TRAIN_METRO_RED		21
 #define TRAIN_METRO_YELLOW	22
