@@ -6,12 +6,21 @@ British Rail Class 158 Express Sprinter
 To-do list
 ----------
 
- - [x] Finish detailing underside
  - [ ] Add head and tail lights
  - [ ] Realistic internal layout
  - [ ] More liveries
  - [ ] More controls in the cab
- - [x] Animate doors
+
+
+Variants
+--------
+
+This train comes in the following variants:
+
+Train ID       | Description              | Screenshot
+---------------|--------------------------|------------
+`class158`     | Default ScotRail livery  | ![metro](./class158_thumb.jpg)
+`class158_gwr` | GWR livery               | ![metro](./class158_gwr_thumb.jpg)
 
 
 Stations
