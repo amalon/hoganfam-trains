@@ -25,6 +25,7 @@
 		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":1106}, "model": "item/amalon/tc/c158/gw/back"},
 		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":1110}, "model": "item/amalon/tc/c158/gw/door_left"},
 		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":1111}, "model": "item/amalon/tc/c158/gw/door_right"},
+		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":1120}, "model": "item/amalon/tc/c158/gw/interior_tables"},
 		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":2000}, "model": "item/amalon/tc/metro/body_front"},
 		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":2001}, "model": "item/amalon/tc/metro/body_2"},
 		{"predicate": {"damaged": 0, "damage": 0.9696969696969697, "custom_model_data":2002}, "model": "item/amalon/tc/metro/body_3"},
