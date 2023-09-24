@@ -133,7 +133,7 @@
                 position:
                   transform: head
                   posX: 0.86
-                  posY: 0.0
+                  posY: 0.07
                   posZ: 0.53
                   rotX: 0.0
                   rotY: 0.0
