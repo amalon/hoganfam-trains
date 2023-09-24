@@ -1,7 +1,7 @@
 RESOURCE_PACK := hoganfam_trains.zip
 
 RES_SRC := res
-RES_GEN := res.gen
+RES_GEN := .res.gen
 
 YML_FILES += srv/hoganfam_trains.yml
 YML_FILES += srv/hoganfam_trains_lite.yml
