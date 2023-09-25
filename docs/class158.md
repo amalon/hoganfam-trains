@@ -3,13 +3,16 @@ British Rail Class 158 Express Sprinter
 
 ![Screenshot](./class158.jpg)
 
-To-do list
-----------
+- By James Hogan
 
- - [ ] Add head and tail lights
- - [ ] Realistic internal layout
- - [ ] More liveries
- - [ ] More controls in the cab
+
+Features
+--------
+
+ - Two carriage DMU with articulated bogies
+ - Multiple variants with different liveries (ScotRail and GWR)
+ - Cab and driver seat
+ - Table seating throughout
 
 
 Variants
@@ -17,10 +20,10 @@ Variants
 
 This train comes in the following variants:
 
-Train ID       | Description              | Screenshot
----------------|--------------------------|------------
-`class158`     | Default ScotRail livery  | ![metro](./class158_thumb.jpg)
-`class158_gwr` | GWR livery               | ![metro](./class158_gwr_thumb.jpg)
+Train ID       | Description                        | Screenshot
+---------------|------------------------------------|------------
+`class158`     | ScotRail livery                    | [![metro](./class158_thumb.jpg)](./class158.jpg)
+`class158_gwr` | GWR (Great Western Railway) livery | [![metro](./class158_gwr_thumb.jpg)](./class158_gwr.jpg)
 
 
 Stations
@@ -62,3 +65,12 @@ doors_l
 ```
 
 [Wikipedia]: https://en.wikipedia.org/wiki/British_Rail_Class_158
+
+
+To-do list
+----------
+
+ - [ ] Add head and tail lights
+ - [ ] Realistic internal layout
+ - [ ] More liveries
+ - [ ] More controls in the cab

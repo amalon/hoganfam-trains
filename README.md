@@ -17,15 +17,16 @@ Features
 --------
 
 The aim is for trains to have the following features:
- - Realistic scale.
- - Fairly high amount of detail.
- - Separate bogies wherever possible so they turn to follow curves.
- - Skinnable liveries.
- - A detailed cab.
+ - Realistic scale
+ - Fairly high amount of detail
+ - Articulated bogies so they turn to follow curves
+ - Animated doors and moving parts
+ - Multiple variants for different liveries
+ - Detailed cabs
  - A reasonable amount of seating (except where the size of Steve does not
-   allow).
+   allow)
  - A platform on which the player can move around inside the train while
-   stationary and to exit onto a platform without jumping.
+   stationary and to exit onto a platform without jumping
 
 
 Trains
@@ -33,23 +34,14 @@ Trains
 
 The following trains are provided:
 
-Train ID    | Name                                      | Status        | Screenshot
-------------|-------------------------------------------|---------------|------------
-[class158]<br/>class158\_gwr | British Rail Class 158 Express Sprinter   | Beta          | ![class158](docs/class158_thumb.jpg)
-[metro]<br/>metro\_red<br/>metro\_yellow | Metro train inspired by B07 DLR train     | Beta          | ![metro](docs/metro_thumb.jpg)
-[a4]        | LNER Class A4 (4468 Mallard)              | Beta          | ![a4](docs/a4_thumb.jpg)
-
-[class158]: ./docs/class158.md
-[metro]: ./docs/metro.md
-[a4]: ./docs/a4.md
-
-Detailed features for each train:
-
-Train ID   | Front | External Skin | Cab | Seating | Bogies | External Details
------------|-------|---------------|-----|---------|--------|------------------
-[class158] | 80%   | 100%          | 70% |  70%    | 100%   |  50%
-[metro]    | 80%   | 100%          |  0% | 100%    | 100%   | 100%
-[a4]       | 90%   | 100%          | 20% | 100%    | 100%   |  90%
+Screenshot                                                          | Train ID        | Description & Documentation
+--------------------------------------------------------------------|-----------------|-------------
+[![a4](docs/a4_thumb.jpg)](./docs/a4.md)                            | `a4`            | [LNER Class A4](./docs/a4.md)<br/>No. 4468 Mallard
+[![class158](docs/class158_thumb.jpg)](./docs/class158.md)          | `class158`      | [British Rail Class 158 Express Sprinter](./docs/class158.md)<br/>ScotRail livery
+[![class158\_gwr](docs/class158_gwr_thumb.jpg)](./docs/class158.md) | `class158_gwr`  | [British Rail Class 158 Express Sprinter](./docs/class158.md)<br/>GWR (Great Western Railway) livery
+[![metro](docs/metro_thumb.jpg)](./docs/metro.md)                   | `metro`         | [Metro (Inspired by DLR B07)](./docs/metro.md)<br/>Standard blue and white livery
+[![metro\_red](docs/metro_red_thumb.jpg)](./docs/metro.md)          | `metro_red`     | [Metro (Inspired by DLR B07)](./docs/metro.md)<br/>Red line variant
+[![metro\_yellow](docs/metro_yellow_thumb.jpg)](./docs/metro.md)    | `metro_yellow`  | [Metro (Inspired by DLR B07)](./docs/metro.md)<br/>Yellow line variant
 
 
 License 
@@ -74,6 +66,7 @@ Various other files in `res/` are from Minecraft:
 All original files in `res/**/amalon/` are released under the [Creative Commons
 Attribution-Share Alike 3.0 Unported] unless otherwise stated.
  - Copyright © 2022-2023 James Hogan <james@albanarts.com>
+ - Copyright © 2022-2023 Samuel Hogan
 
 
 Download

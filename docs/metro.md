@@ -3,7 +3,20 @@ Metro (Inspired by DLR B07)
 
 ![Screenshot](./metro.jpg)
 
-A metro train inspired by the B07 DLR train.
+ - Design & models by Sam Hogan
+ - Configuration by James Hogan
+
+
+Features
+--------
+
+ - Two carriage self-driving metro train inspired by the B07 DLR train
+ - Multiple variants suitable for different train lines (blue, red, yellow)
+ - Easily customisable branding on ends and sides of carriages
+ - Airline and metro style seating
+ - Shorter carriage lengths than [Class 158](./class158.md) suitable for
+   shorter platforms and tighter bends
+
 
 Variants
 --------
@@ -12,12 +25,12 @@ This train comes in the following variants:
 
 Train ID       | Description                               | Screenshot
 ---------------|-------------------------------------------|------------
-`metro`        | Standard blue and white livery            | ![metro](./metro_thumb.jpg)
-`metro_red`    | Red stripe along top, red poles           | ![metro](./metro_red_thumb.jpg)
-`metro_yellow` | Yellow stripe along top, yellow poles     | ![metro](./metro_yellow_thumb.jpg)
+`metro`        | Standard blue and white livery            | [![metro](./metro_thumb.jpg)](./metro.jpg)
+`metro_red`    | Red stripe along top, red poles           | [![metro](./metro_red_thumb.jpg)](./metro_red.jpg)
+`metro_yellow` | Yellow stripe along top, yellow poles     | [![metro](./metro_yellow_thumb.jpg)](./metro_yellow.jpg)
 
 
-Customization
+Customisation
 -------------
 
 A custom logo or train line name can be placed on the sides and ends of the
