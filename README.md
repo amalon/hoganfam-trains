@@ -189,6 +189,15 @@ You can tune the 2 second delay so that the doors open soon after stopping. See
 train information above for recommended values.
 
 
+Donate
+------
+
+If you have enjoyed using these trains and want to give something back to
+support the project, please consider donating with
+[Liberapay](https://liberapay.com/jameshogan/donate) or
+[PayPal](https://www.paypal.me/jamesahogan). Many thanks!
+
+
 [TrainCarts Spigot plugin]: https://www.spigotmc.org/resources/traincarts.39592/
 [TC Coasters Spigot plugin]: https://www.spigotmc.org/resources/tc-coasters.59583/
 [GNU General Public License, version 2]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
