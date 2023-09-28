@@ -6,7 +6,7 @@ HoganFam Minecraft Train Pack
 This project is to create some semi-realistic trains for use with Minecraft
 Java Edition and the [TrainCarts Spigot plugin].
 
-It consists of a resouce pack containing models and textures for various train
+It consists of a resource pack containing models and textures for various train
 parts (which the Minecraft clients will need), and a saved train module to be
 loaded on the server running the plugin to organise the models into trains.
 
