@@ -1,3 +1,53 @@
+Version v23.10.a
+----------------
+
+Highlights:
+ - Class 158: New [GWR livery variant](docs/class158.md#variants) ("class158\_gwr")
+ - Metro: New [red and yellow line variants](docs/metro.md#variants) ("metro\_red", "metro\_yellow")
+ - Metro: Easy [branding customisation](docs/metro.md#customisation) on front and sides
+
+Resource Pack:
+ - Rearrange train model data codes for skinning (NOTE: this makes existing
+   trains that use old resource packs incompatible with the new resource pack,
+   and vice versa. Only newly spawned trains will display correctly).
+ - Separate models & textures into nested directories
+ - Add generation of skin model wrappers
+ - Update resource pack pack\_version to 15
+ - Tweak resource pack description
+
+Saved train module:
+ - Reduce wait distance to reduce lag (NOTE: this may make trains queue up
+   closer to one another and cause congestion if you have missing mutex zones).
+ - Prepare trains for skinning
+ - Turn off collisions to reduce lag
+ - Refactor saved train configuration list
+
+[LNER Class A4](docs/a4.md) ("a4"):
+ - Allow every model to be skinned
+
+[British Rail Class 158 Express Sprinter](docs/class158.md) ("class158"):
+ - Add a [GWR livery variant](docs/class158.md#variants) ("class158\_gwr")
+ - Allow most models to be skinned
+ - Adjust seat positions to fix exit
+ - Minor UV mapping corrections
+ - Fix seat up UV mapping
+ - Update documentation
+
+[Metro](docs/metro.md) ("metro"):
+ - New [red and yellow line variants](docs/metro.md#variants) ("metro\_red", "metro\_yellow")
+ - Easy [branding customisation](docs/metro.md#customisation) on front and sides
+ - Make top blue stripe consistent
+ - Allow most models to be skinned
+ - Document livery variants
+
+Documentation:
+ - README: Add nice banner showing multiple trains
+ - README: Add donation links
+ - README: Fix typo "resouce"
+ - Restructure documentation
+ - Add CHANGELOG.md
+
+
 Version v23.09.b
 ----------------
 
