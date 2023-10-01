@@ -3,16 +3,16 @@ TRAIN_NAME:
   savedName: TRAIN_NAME
   allowManualMovement: true
   wait:
-    distance: 200.0
-    delay: 20.0
+    distance: 10.0
+    delay: 5.0
     acceleration: 0.002
     deceleration: 0.005
     predict: true
   speedLimit: 1.0
   collision:
     players: CANCEL
-    misc: PUSH
-    train: LINK
+    misc: CANCEL
+    train: CANCEL
     block: CANCEL
   slowDown: false
   keepChunksLoaded: true

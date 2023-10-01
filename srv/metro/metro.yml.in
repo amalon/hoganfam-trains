@@ -2,16 +2,16 @@ TRAIN_NAME:
   name: metro
   savedName: TRAIN_NAME
   wait:
-    distance: 100.0
-    delay: 10.0
+    distance: 10.0
+    delay: 5.0
     acceleration: 0.0035
     deceleration: 0.005
     predict: true
   speedLimit: 1.0
   collision:
     players: CANCEL
-    misc: PUSH
-    train: LINK
+    misc: CANCEL
+    train: CANCEL
     block: CANCEL
   slowDown: false
   keepChunksLoaded: true
