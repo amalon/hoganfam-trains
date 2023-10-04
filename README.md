@@ -96,6 +96,23 @@ $ make
 Installing
 ----------
 
+### Dependencies
+
+To use these trains you will need the [TrainCarts Spigot plugin] installed on
+your server.
+
+Due to the length of the train carriages and their standard-gauge wheels
+(around 1.5 blocks apart), it is recommended to build your own custom train
+tracks and use the [TC Coasters Spigot plugin] to allow TrainCarts trains to
+run on them. Minecraft's default minecart rails can be used but will look too
+narrow and the trains may look odd going around sharp bends.
+
+It is also recommended to use the [SmoothCoasters client side mod] with these
+trains. This will make train rides smoother by rotating the view with the
+train on bends and slopes, and avoids flickering of the large models used by
+these trains when at the edge of the view.
+
+
 ### The Resource Pack
 
 Download or build the `hoganfam_trains.zip` resource pack as described above.
@@ -200,5 +217,6 @@ support the project, please consider donating with
 
 [TrainCarts Spigot plugin]: https://www.spigotmc.org/resources/traincarts.39592/
 [TC Coasters Spigot plugin]: https://www.spigotmc.org/resources/tc-coasters.59583/
+[SmoothCoasters client side mod]: https://modrinth.com/mod/smoothcoasters
 [GNU General Public License, version 2]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 [Creative Commons Attribution-Share Alike 3.0 Unported]: https://creativecommons.org/licenses/by-sa/3.0/
