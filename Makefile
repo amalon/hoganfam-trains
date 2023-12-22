@@ -55,8 +55,7 @@ $(RES_GEN)/$(MODEL_DIR)/%.json: $$(patsubst $(RES_GEN)/$$(pc),$(RES_SRC)/$$(pc),
 	@echo '	"parent": "$(dir $(patsubst %/,%,$(dir $(patsubst $(RES_GEN)/$(MODEL_DIR)/%,%,$@))))$(patsubst %.json,%,$(notdir $@))",' >> '$@.tmp'
 	@echo '	"textures": {' >> '$@.tmp'
 	@sed -n '/^\t"textures"/,//{/^\t\t/p;/^\t\}/q}' '$<' | \
-		grep -F $(foreach base,$(SKIN_BASES),-e $(base)) | \
-		sed -e 's/$(subst /,\/,$(patsubst $(RES_SRC)/$(MODEL_DIR)/%,%,$(dir $<)))/$(subst /,\/,$(patsubst $(RES_GEN)/$(MODEL_DIR)/%,%,$(dir $@)))/' -e 's/,$$//' -e '$$ ! s/$$/,/' >> '$@.tmp'
+		sed $(foreach base,$(SKIN_BASES),-e 's/$(subst /,\/,$(patsubst $(RES_SRC)/$(MODEL_DIR)/%,%,$(dir $<))$(notdir $(base)))/$(subst /,\/,$(patsubst $(RES_GEN)/$(MODEL_DIR)/%,%,$(dir $@))$(notdir $(base)))/') -e 's/,$$//' -e '$$ ! s/$$/,/' >> '$@.tmp'
 	@echo '	}' >> '$@.tmp'
 	@echo '}' >> '$@.tmp'
 	@mv '$@.tmp' '$@'
