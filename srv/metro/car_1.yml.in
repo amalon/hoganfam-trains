@@ -52,7 +52,7 @@
               0:
 #define POS_Z 1.0
 #define ROT_Y 0
-#include "seats_airline.yml.in"
+#include "seats_row.yml.in"
               1:
 #define POS_Z -0.75
 #include "seats_metro.yml.in"
@@ -272,11 +272,11 @@
 #if ENABLE_SEATING
 #define POS_Z 0
 #define ROT_Y 0
-#include "seats_airline.yml.in"
+#include "seats_row.yml.in"
               1:
 #define POS_Z 0
 #define ROT_Y 180
-#include "seats_airline.yml.in"
+#include "seats_row.yml.in"
 #endif // ENABLE_SEATING
           3:
             type: ITEM
