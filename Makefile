@@ -25,14 +25,14 @@ all: $(RESOURCE_PACK)
 all: $(YML_FILES)
 all: $(BEDROCK_TARGETS)
 
-TEXTURE_DIR := assets/minecraft/textures
-MODEL_DIR := assets/minecraft/models
-TC_PATH := item/amalon/tc
+TEXTURE_DIR := assets/hoganfam/textures
+MODEL_DIR := assets/hoganfam/models
+TC_PATH := item/tc
 
 # Find skin textures, PNGs in a subdirectory under trains
-SKIN_TEXTURES := $(patsubst $(RES_SRC)/$(TEXTURE_DIR)/%.png,%,$(wildcard $(RES_SRC)/$(TEXTURE_DIR)/item/amalon/tc/*/*/*.png))
+SKIN_TEXTURES := $(patsubst $(RES_SRC)/$(TEXTURE_DIR)/%.png,%,$(wildcard $(RES_SRC)/$(TEXTURE_DIR)/item/tc/*/*/*.png))
 # Find the skin names
-SKIN_TEXTURE_DIRS := $(patsubst $(RES_SRC)/$(TEXTURE_DIR)/%,%,$(wildcard $(RES_SRC)/$(TEXTURE_DIR)/item/amalon/tc/*/*/))
+SKIN_TEXTURE_DIRS := $(patsubst $(RES_SRC)/$(TEXTURE_DIR)/%,%,$(wildcard $(RES_SRC)/$(TEXTURE_DIR)/item/tc/*/*/))
 SKINS := $(patsubst %/,%,$(filter $(dir $(SKIN_TEXTURES)),$(SKIN_TEXTURE_DIRS)))
 # Find base textures that are overridden by skins
 SKIN_BASES := $(foreach skin,$(SKIN_TEXTURES),$(patsubst %/,%,$(dir $(patsubst %/,%,$(dir $(skin)))))/$(notdir $(skin)))
@@ -52,7 +52,7 @@ $(RES_GEN)/$(MODEL_DIR)/%.json: $$(patsubst $(RES_GEN)/$$(pc),$(RES_SRC)/$$(pc),
 	@echo 'GEN $@'
 	@mkdir -p '$(dir $@)'
 	@echo '{' > '$@.tmp'
-	@echo '	"parent": "$(dir $(patsubst %/,%,$(dir $(patsubst $(RES_GEN)/$(MODEL_DIR)/%,%,$@))))$(patsubst %.json,%,$(notdir $@))",' >> '$@.tmp'
+	@echo '	"parent": "hoganfam:$(dir $(patsubst %/,%,$(dir $(patsubst $(RES_GEN)/$(MODEL_DIR)/%,%,$@))))$(patsubst %.json,%,$(notdir $@))",' >> '$@.tmp'
 	@echo '	"textures": {' >> '$@.tmp'
 	@sed -n '/^\t"textures"/,//{/^\t\t/p;/^\t\}/q}' '$<' | \
 		sed $(foreach base,$(SKIN_BASES),-e 's/$(subst /,\/,$(patsubst $(RES_SRC)/$(MODEL_DIR)/%,%,$(dir $<))$(notdir $(base)))/$(subst /,\/,$(patsubst $(RES_GEN)/$(MODEL_DIR)/%,%,$(dir $@))$(notdir $(base)))/') -e 's/,$$//' -e '$$ ! s/$$/,/' >> '$@.tmp'

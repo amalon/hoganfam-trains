@@ -35,9 +35,9 @@ Customisation
 
 A custom logo or train line name can be placed on the sides and ends of the
 trains by editing the following textures in the resource pack:
- - `metro`: `assets/minecraft/textures/item/amalon/tc/metro/branding.png`
- - `metro_red`: `assets/minecraft/textures/item/amalon/tc/metro/red/branding.png`
- - `metro_yellow`: `assets/minecraft/textures/item/amalon/tc/metro/yel/branding.png`
+ - `metro`: `assets/hoganfam/textures/item/tc/metro/branding.png`
+ - `metro_red`: `assets/hoganfam/textures/item/tc/metro/red/branding.png`
+ - `metro_yellow`: `assets/hoganfam/textures/item/tc/metro/yel/branding.png`
 
 The original resource pack files are found in the `res/` directory of the git
 repository.
