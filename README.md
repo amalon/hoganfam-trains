@@ -87,9 +87,26 @@ Building from Source
 
 The included Makefile can be used to build both a `hoganfam_trains.zip`
 resource pack and a `srv/hoganfam_trains.yml` saved train module from source:
-
 ```shell
 $ make
+```
+
+To also build a Bedrock resource pack `hoganfam_trains_bedrock.mcpack` and
+[GeyserMC] mappings `hoganfam_trains_mappings.json`, you can optionally first
+download [java2bedrock.sh] as a submodule of this project:
+```shell
+$ git submodule init
+$ git submodule update
+$ make
+```
+
+You may need to install dependencies required by [java2bedrock.sh].
+
+Alternatively [java2bedrock.sh] can be downloaded elsewhere and you can set the
+`JAVA2BEDROCK` variable to the directory containing converter.sh when invoking
+`make`:
+```shell
+$ make JAVA2BEDROCK=/path/to/java2bedrock.sh
 ```
 
 
@@ -135,6 +152,28 @@ The SHA1 hash can be found using `sha1sum`:
 ```shell
 $ sha1sum hoganfam_trains_v2310a.zip
 ```
+
+
+### The Bedrock Edition Resource Pack
+
+If you use [GeyserMC] and want Bedrock Edition players to see the trains, you
+can download or build the `hoganfam_trains_bedrock.mcpack` and
+`hoganfam_trains_mappings.json` files.
+
+- Copy `hoganfam_trains_bedrock.mcpack` to `plugins/Geyser-Spigot/packs/` on
+  your Minecraft Java Edition server.
+- Copy `hoganfam_trains_mappings.json` to
+  `plugins/Geyser-Spigot/custom_mappings` on your Minecraft Java Edition
+  server.
+
+Geyser can be reloaded (which will kick all Bedrock edition players):
+```
+/geyser reload
+```
+
+Note that support for Bedrock Edition is still experimental. There are a number
+of outstanding issues which affect the appearance of most of the trains.
+
 
 ### The Saved Train Module
 
@@ -218,5 +257,7 @@ support the project, please consider donating with
 [TrainCarts Spigot plugin]: https://www.spigotmc.org/resources/traincarts.39592/
 [TC Coasters Spigot plugin]: https://www.spigotmc.org/resources/tc-coasters.59583/
 [SmoothCoasters client side mod]: https://modrinth.com/mod/smoothcoasters
+[GeyserMC]: https://geysermc.org/
+[java2bedrock.sh]: https://github.com/Kas-tle/java2bedrock.sh
 [GNU General Public License, version 2]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 [Creative Commons Attribution-Share Alike 3.0 Unported]: https://creativecommons.org/licenses/by-sa/3.0/
