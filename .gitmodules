@@ -1,0 +1,3 @@
+[submodule "java2bedrock.sh"]
+	path = java2bedrock.sh
+	url = https://github.com/amalon/java2bedrock.sh

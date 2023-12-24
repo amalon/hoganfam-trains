@@ -1,5 +1,14 @@
 RESOURCE_PACK := hoganfam_trains.zip
 
+JAVA2BEDROCK := $(PWD)/java2bedrock.sh
+JAVA2BEDROCK_CONVERTER := $(JAVA2BEDROCK)/converter.sh
+BEDROCK_DIR := .bedrock
+BEDROCK_RESOURCE_PACK := hoganfam_trains_bedrock.mcpack
+GEYSER_MAPPINGS := hoganfam_trains_mappings.json
+ifneq ($(shell test -x $(JAVA2BEDROCK_CONVERTER) && echo x),)
+BEDROCK_TARGETS += $(BEDROCK_RESOURCE_PACK)
+endif
+
 RES_SRC := res
 RES_GEN := .res.gen
 
@@ -14,6 +23,7 @@ DEPFLAGS = -MT $@ -MMD -MP -MF $(DEPDIR)/$*.Td
 
 all: $(RESOURCE_PACK)
 all: $(YML_FILES)
+all: $(BEDROCK_TARGETS)
 
 TEXTURE_DIR := assets/minecraft/textures
 MODEL_DIR := assets/minecraft/models
@@ -58,6 +68,14 @@ $(RESOURCE_PACK): $(SKIN_MODEL_GEN)
 	cd $(RES_GEN) && zip -g -r '../$@.tmp' $(patsubst $(RES_GEN)/%,'%',$(SKIN_MODEL_GEN))
 	mv '$@.tmp' '$@'
 
+$(BEDROCK_RESOURCE_PACK): $(RESOURCE_PACK)
+	@mkdir -p $(BEDROCK_DIR)
+	rm -f $@
+	rm -fr $(BEDROCK_DIR)/config.json $(BEDROCK_DIR)/target
+	cd $(BEDROCK_DIR) && $(JAVA2BEDROCK_CONVERTER) ../$(RESOURCE_PACK) -w false -m null -a entity_alphatest_one_sided -b alpha_test -f null
+	mv $(BEDROCK_DIR)/target/geyser_mappings.json $(GEYSER_MAPPINGS)
+	mv $(BEDROCK_DIR)/target/packaged/geyser_resources.mcpack $(BEDROCK_RESOURCE_PACK)
+
 include $(wildcard $(patsubst %,$(DEPDIR)/%.d,$(basename $(YML_FILES))))
 
 %.yml: %.yml.in
@@ -72,6 +90,8 @@ clean:
 	rm -f $(YML_FILES)
 	rm -fr $(RES_GEN)
 	rm -fr $(DEPDIR)
+	rm -f $(BEDROCK_RESOURCE_PACK) $(GEYSER_MAPPINGS)
+	rm -fr $(BEDROCK_DIR)/config.json $(BEDROCK_DIR)/target
 
 %.d: ;
 .PRECIOUS: $(DEPDIR)/%.d

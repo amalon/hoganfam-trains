@@ -1,3 +1,6 @@
+.bedrock/
 .deps/
 .res.gen/
 hoganfam_trains.zip
+hoganfam_trains_bedrock.mcpack
+hoganfam_trains_mappings.json
