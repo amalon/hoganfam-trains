@@ -17,6 +17,8 @@ all: $(YML_FILES)
 
 TEXTURE_DIR := assets/minecraft/textures
 MODEL_DIR := assets/minecraft/models
+OLD_ITEMS_DIR := $(MODEL_DIR)/item
+NEW_ITEMS_DIR := assets/minecraft/items
 TC_PATH := item/amalon/tc
 
 # Find skin textures, PNGs in a subdirectory under trains
@@ -35,6 +37,22 @@ SKIN_MODELS := $(foreach base,$(SKIN_BASE_MODELS),$(foreach skin,$(filter $(dir 
 # Construct skin model file names
 SKIN_MODEL_GEN := $(foreach model,$(SKIN_MODELS),$(RES_GEN)/$(MODEL_DIR)/$(model))
 
+# The item json file has moved directory
+OLD_ITEM_JSON_GEN := $(RES_GEN)/$(OLD_ITEMS_DIR)/golden_pickaxe.json
+NEW_ITEM_JSON_GEN := $(RES_GEN)/$(NEW_ITEMS_DIR)/golden_pickaxe.json
+JSON_ITEMS_GEN := $(OLD_ITEM_JSON_GEN) $(NEW_ITEM_JSON_GEN)
+
+# Get defines for generating item json files
+include old_item_json.mk new_item_json.mk
+
+# Join lines together ready for use in sed
+define \n
+
+
+endef
+OLD_ITEM_JSON_LINE := $(subst ${\n},\n,$(OLD_ITEM_JSON_LINE))
+NEW_ITEM_JSON_LINE := $(subst ${\n},\n,$(NEW_ITEM_JSON_LINE))
+
 # Construct skin model wrappers
 pc := %
 .SECONDEXPANSION:
@@ -51,11 +69,29 @@ $(RES_GEN)/$(MODEL_DIR)/%.json: $$(patsubst $(RES_GEN)/$$(pc),$(RES_SRC)/$$(pc),
 	@echo '}' >> '$@.tmp'
 	@mv '$@.tmp' '$@'
 
+# Item json file for versions < 1.21.4
+$(OLD_ITEM_JSON_GEN): custom_models.csv old_item_json.mk
+	@echo 'GEN $@'
+	@mkdir -p '$(dir $@)'
+	@echo "$$OLD_ITEM_JSON_HEAD" > '$@.tmp'
+	@sed "s/^\(.*\),\(.*\)$$/$$OLD_ITEM_JSON_LINE/" < '$<' >> '$@.tmp'
+	@echo "$$OLD_ITEM_JSON_TAIL" >> '$@.tmp'
+	@mv '$@.tmp' '$@'
+
+# Item json file for versions >= 1.21.4
+$(NEW_ITEM_JSON_GEN): custom_models.csv new_item_json.mk
+	@echo 'GEN $@'
+	@mkdir -p '$(dir $@)'
+	@echo "$$NEW_ITEM_JSON_HEAD" > '$@.tmp'
+	@sed "s/^\(.*\),\(.*\)$$/$$NEW_ITEM_JSON_LINE/" < '$<' | sed '$$s/,$$//' >> '$@.tmp'
+	@echo "$$NEW_ITEM_JSON_TAIL" >> '$@.tmp'
+	@mv '$@.tmp' '$@'
+
 .PHONY: $(RESOURCE_PACK)
-$(RESOURCE_PACK): $(SKIN_MODEL_GEN)
+$(RESOURCE_PACK): $(SKIN_MODEL_GEN) $(JSON_ITEMS_GEN)
 	rm -f "$@"
 	cd $(RES_SRC) && zip -r '../$@.tmp' assets/ pack.mcmeta  pack.png
-	cd $(RES_GEN) && zip -g -r '../$@.tmp' $(patsubst $(RES_GEN)/%,'%',$(SKIN_MODEL_GEN))
+	cd $(RES_GEN) && zip -g -r '../$@.tmp' $(patsubst $(RES_GEN)/%,'%',$(SKIN_MODEL_GEN) $(JSON_ITEMS_GEN))
 	mv '$@.tmp' '$@'
 
 include $(wildcard $(patsubst %,$(DEPDIR)/%.d,$(basename $(YML_FILES))))

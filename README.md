@@ -47,9 +47,9 @@ Screenshot                                                          | Train ID  
 License 
 -------
 
-The `Makefile`, and all `.yml`, `.yml.in` files in `srv/` are released under
-the [GNU General Public License, version 2].
- - Copyright © 2022-2023 James Hogan <james@albanarts.com>
+The `Makefile` and `.mk` files, and all `.yml`, `.yml.in` files in `srv/` are
+released under the [GNU General Public License, version 2].
+ - Copyright © 2022-2025 James Hogan <james@albanarts.com>
 
 In order to make shulkers completely invisible (these are used for platforms on
 which players can walk while a train is stationary):
