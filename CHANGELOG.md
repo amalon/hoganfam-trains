@@ -1,3 +1,16 @@
+Version v25.02.a
+----------------
+
+Highlights:
+ - Fix resource pack on Minecraft 1.21.4
+
+Resource Pack:
+ - Generate new & old item JSON files from custom\_models.csv
+ - Update resource pack pack\_version to 46
+
+Documentation:
+ - README: Add dependencies section
+
 Version v23.10.a
 ----------------
 
