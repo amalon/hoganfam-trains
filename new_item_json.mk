@@ -5,7 +5,7 @@ define NEW_ITEM_JSON_HEAD
 		"property": "custom_model_data",
 		"fallback": {
 			"type": "model",
-			"model": "minecraft:item/gold_pickaxe"
+			"model": "minecraft:item/golden_pickaxe"
 		},
 		"entries": [
 endef
