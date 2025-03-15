@@ -1,10 +1,10 @@
 define NEW_ITEM_JSON_HEAD
 {
 	"model": {
-		"type": "range_dispatch",
-		"property": "custom_model_data",
+		"type": "minecraft:range_dispatch",
+		"property": "minecraft:custom_model_data",
 		"fallback": {
-			"type": "model",
+			"type": "minecraft:model",
 			"model": "minecraft:item/golden_pickaxe"
 		},
 		"entries": [
@@ -14,7 +14,7 @@ define NEW_ITEM_JSON_LINE
 			{
 				"threshold": \1,
 				"model": {
-					"type": "model",
+					"type": "minecraft:model",
 					"model": "\2"
 				}
 			},
