@@ -14,21 +14,8 @@ define NEW_ITEM_JSON_LINE
 			{
 				"threshold": \1,
 				"model": {
-					"type": "range_dispatch",
-					"property": "damage",
-					"fallback": {
-						"type": "model",
-						"model": "minecraft:item\/gold_pickaxe"
-					},
-					"entries": \[
-						{
-							"threshold": 0.9696969696969697,
-							"model": {
-								"type": "model",
-								"model": "\2"
-							}
-						}
-					\]
+					"type": "model",
+					"model": "\2"
 				}
 			},
 endef
