@@ -1,3 +1,13 @@
+Version v25.03.a
+----------------
+
+Highlights:
+ - Fix golden pickaxe fallback model on Minecraft 1.21.4
+
+Resource Pack:
+ - Add "minecraft:" prefixes in items JSON
+ - Drop damage check in items JSON
+
 Version v25.02.a
 ----------------
 
