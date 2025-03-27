@@ -126,7 +126,7 @@ Minecraft Java Edition server to point your players at it by setting the
 following in your `server.properties` file:
 
 ```
-resource-pack=https\://github.com/amalon/hoganfam-trains/releases/download/v25.02.a/hoganfam_trains_v2503a.zip
+resource-pack=https\://github.com/amalon/hoganfam-trains/releases/download/v25.03.a/hoganfam_trains_v2503a.zip
 resource-pack-sha1=984f767d7a15eb02fcbd79915c77a3dacc282a28
 ```
 
