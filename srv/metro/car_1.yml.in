@@ -105,7 +105,7 @@
                 position:
                   transform: head
                   posX: -2.0
-                  posY: -1.58
+                  posY: -1.925
                   posZ: -0.18
                   rotX: 0.0
                   rotY: 0.0
@@ -123,7 +123,7 @@
                 position:
                   transform: head
                   posX: 2.0
-                  posY: -1.58
+                  posY: -1.925
                   posZ: -0.18
                   rotX: 0.0
                   rotY: 0.0
@@ -327,7 +327,7 @@
                 position:
                   transform: head
                   posX: -2.0
-                  posY: -1.58
+                  posY: -1.925
                   posZ: -0.18
                   rotX: 0.0
                   rotY: 0.0
@@ -345,7 +345,7 @@
                 position:
                   transform: head
                   posX: 2.0
-                  posY: -1.58
+                  posY: -1.925
                   posZ: -0.18
                   rotX: 0.0
                   rotY: 0.0
@@ -501,7 +501,7 @@
             position:
               transform: head
               posX: 0.0
-              posY: 2.08
+              posY: 1.735
               posZ: 0.0
               rotX: 0.0
               rotY: 0.0
