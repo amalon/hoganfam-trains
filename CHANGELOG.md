@@ -1,3 +1,18 @@
+Version v26.01.a
+----------------
+
+Highlights:
+ - Fix resource pack on Minecraft 1.21.11
+
+Resource Pack:
+ - Improve compatible version range to 1.20 - 1.21.11 (though it works back to
+   1.15)
+ - Fix missing A4 textures breaking all models on 1.21.11
+
+Saved train module:
+ - Lower platforms (they changed height between 1.20 and 1.20.2)
+
+
 Version v25.03.a
 ----------------
 
@@ -7,6 +22,7 @@ Highlights:
 Resource Pack:
  - Add "minecraft:" prefixes in items JSON
  - Drop damage check in items JSON
+
 
 Version v25.02.a
 ----------------
@@ -20,6 +36,7 @@ Resource Pack:
 
 Documentation:
  - README: Add dependencies section
+
 
 Version v23.10.a
 ----------------
