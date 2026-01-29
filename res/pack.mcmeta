@@ -1,6 +1,9 @@
 {
   "pack": {
-    "pack_format": 46,
-    "description": "§b§lHoganFam Trains§r§6 v25.03.a\n§4§ocreated by: James and Sam"
+    "description": "§b§lHoganFam Trains§r§6 v25.03.a\n§4§ocreated by: James and Sam",
+    "pack_format": 5,
+    "supported_formats": [5, 69],
+    "min_format": 5,
+    "max_format": 69
   }
 }
